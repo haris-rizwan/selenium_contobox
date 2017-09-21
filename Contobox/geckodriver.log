@@ -1,0 +1,415 @@
+1499711490868	geckodriver	INFO	Listening on 127.0.0.1:49291
+1499711491938	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499711494069	Marionette	INFO	Listening on port 49300
+1499711494163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499711494360	Marionette	DEBUG	loaded listener.js
+2017-07-10 14:31:34.466 plugin-container[493:5660] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x973b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-10 14:31:34.469 plugin-container[493:5660] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9b03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499711533312	geckodriver	INFO	Listening on 127.0.0.1:49476
+1499711534369	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499711536612	Marionette	INFO	Listening on port 49486
+1499711536714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499711537201	Marionette	DEBUG	loaded listener.js
+1499711537253	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-10 14:32:17.342 plugin-container[522:6578] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-10 14:32:17.344 plugin-container[522:6578] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499711537416	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499711537417	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499711537541	Marionette	INFO	Ceased listening
+1499711539184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ca.yahoo.com/?p=us"
+1499711539187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499711539195	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499711539893	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711540063	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711540066	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711542078	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ad.doubleclick.net/ddm/adi/N7916.1864115.ACUITYADS/B11033101.146804333;sz=300x250;click=https://click-west.acuityplatform.com/Adserver/landing?bc=609081&position=1&bannerid=620630&campaignid=170866&mastercampaignid=55738&sizeid=3&exid=17&adid=0&xuid=9XxNpBvM8yjvdSCZ_f4J1x_I&agentcode=71&geocode=22&geostrcode=&siteid=40841053647&inventoryid=233297837&pubid=0&reqid=ae293ab9-0998-12c7-c1e5-fdf168342020&ip=1825a700&ts=15d2dc5febd&test=0&rc=1&cnt=CA&rg=QC&cty=VICTORIAVILLE&ert=0&erid=&ag=7&gnd=2&ca=0&bauid=null&cvt=0&uq=0&sg=0&sgs=&sgmt=&tt=ae293ab9-0998-12c7-c1e5-fdf168342020&uaos=6&uab=7&dealid=0&pw=-1&ph=-1&ist=15d2dc5febd&pl=0&vrt=0&vrl=&topics=20939&chnls=&lat=46.082794&long=-71.9728&sw=0&sh=0&dt=1&int=0&devid=1&landingUrl=;ord=1499711539;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?"
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1499711540197, line 0: Successfully compiled asm.js code (total compilation time 4ms; not stored in cache (too small to benefit))
+1499711542966	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1499711542968	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1499711542970	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+1499711542972	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1499711542975	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1499711542977	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1499711542983	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+[Child 522] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1499711559592	geckodriver	INFO	Listening on 127.0.0.1:49652
+1499711560648	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499711562589	Marionette	INFO	Listening on port 49662
+1499711562649	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499711562888	Marionette	DEBUG	loaded listener.js
+1499711562921	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-10 14:32:42.991 plugin-container[531:7269] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-10 14:32:42.994 plugin-container[531:7269] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499711563071	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499711563071	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499711564014	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499711564022	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499711564312	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ca.yahoo.com/?p=us"
+1499711564882	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711564883	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711564922	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+JavaScript warning: https://sdk.streamrail.com/player/sr.ads.js?cb=1499711565218, line 0: Successfully compiled asm.js code (total compilation time 10ms; not stored in cache (too small to benefit))
+1499711566884	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.ace.advertising.com/ctst=1/site=962967/size=300250/u=2/bnum=57142489/wkhr=38/hr=14/hl=1/scres=5/swh=1280x800/sd=1/tile=1/f=2/r=1/optn=1/rclk=https%25253A%25252F%25252Fna.ads.yahoo.com%25252Fyax%25252Fclk%25253Fsn%2525253Db143de838fb43aaaf37df68caf753c1ec008ab83%25252526es%2525253DuKnza7DRVIPTlC8hkzt7PInSHP.VQEoRHDls6AJtTpP_5vLZBXKz7AycjF12uyK44QN9wsNVXEBKqx_ESiGglEqU3XjS29Q9hpXFmLasJJQB4BgZCrTH23jD1myED93nSP_Vim9iIgf3df6C8Egkpg1SH1aEQ0lmWK3_qV0z38m3dyroJln90EL4q04juoZSsfzt4LjcFoBOTaQG0NmRDravElkGaykbiPckP2CwzNAYZCWZHuyVs0CsEA_cw5msulZ_wRCL9R2iOAr4riIni4IgsC2QKEauVPO6X493f_jFH09op6OMnhFc6.dxGko0oi3Abi1LcmhNlEu44uhMf15iQwGCFCpPdg5TcQ--%25252526ve%2525253D2%25252526ty%2525253D0%25252526brxw%2525253Dtrue%25252526sasc%2525253D4%25252526yredirect%2525253D/kvismob=2/fv=0/aolexp=1/tags=1/rtbcpmprice=0.052500000000000005/rip=EiVBUzQxNjU4NjU0NTRjMGZlMDQzODlhNjMyY2I2NjFlZTBhODQ5GPoHIgExKgQxMDE4MhJjYS55YWhvby5jb20vP3A9dXM4_OGaAUCgCUgAfTqwBDmdATqwBDmlAVVntTytAQAAAADdAQAAAADoAQHyAQd1bmtub3du_QE6sAQ5ygIHICxmYWxzZdICByAsZmFsc2XqAgdwcmltYXJ58gIAqgMDd2Vi/rc=15A7ABEA70790FB5DD7CB6ED8CD2B05C/bz=_v8AdQBzAC0AZQBhAHMAdAAtADEAYQ/bidid=6ff28c14-1d6b-220c-daf2-96cb59125e04%253A1499711562392%253A1/pid=1018/limitadtracking=false/dref=https%253A%252F%252Fca.yahoo.com%253Fp%253Dus"
+1499711566915	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://secure.ace.advertising.com/ctst=1/site=962967/size=300250/u=2/bnum=9200109/wkhr=38/hr=14/hl=1/scres=5/swh=1280x800/sd=1/tile=1/f=2/r=1/optn=1/rclk=https%25253A%25252F%25252Fna.ads.yahoo.com%25252Fyax%25252Fclk%25253Fsn%2525253D5f26bc90d3026dc476b3decded865aa4bb4528bf%25252526es%2525253DwEK6gd7RVIOO7GAqn.1vi.AdfMtML9QJumQ4Aozss5rZLXMehV1t2Hyg9RLZ9YbdGonBCsJ4LH1MstPWaLl5TWv.UBXKwZlDEVCsIhnkqg_boLWQjIxLM_QqdsFhB.0rg97HXevTPU0oayCKeuds8C9zlPUQGc4prjvfriPBQfMP1Se__8xDKPR95sEBQH5NNLs1LlaFQutdsf1ZkigUE6sLn1xZlq7hYWskkLJSvVmh0Hr5pvmqF6k8zHngyYhoKDipmkTfOQ.qlgfTx3lElXEPenhGtio__KNTsRLDSpE5goGumFHWN1usVPPT8QlCBVv49x0nFOlhtvg8iV3oVfvtXcg5wase1WjqcZiW%25252526ve%2525253D2%25252526ty%2525253D0%25252526brxw%2525253Dtrue%25252526sasc%2525253D4%25252526yredirect%2525253D/kvismob=2/fv=0/aolexp=1/tags=1/rtbcpmprice=0.10500000000000001/rip=EiVBUzQxNjU4NjU0NTA4NmFmYzQ2Mzc4N2I5ZmQ4ZGExNDkzOTg3GPoHIgExKgQxMDE4MhJjYS55YWhvby5jb20vP3A9dXM4u-CgAUCgCUgAfbDKRjmdAbDKRjmlAVVntTytAQAAAADdAQAAAADoAQHyAQVhYm92Zf0BsMpGOcoCByAsZmFsc2XSAgcgLGZhbHNl6gIHcHJpbWFyefICAKoDA3dlYg/rc=EFDFE62F831C7DAC7A1AF1FF7B806DFB/bz=_v8AdQBzAC0AZQBhAHMAdAAtADEAYw/bidid=8f40a824-562a-552d-09b5-1a6dfe7f64b9%253A1499711562391%253A1/pid=1018/limitadtracking=false/dref=https%253A%252F%252Fca.yahoo.com%253Fp%253Dus"
+1499711567124	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.ace.advertising.com/ctst=1/site=962967/size=300250/u=2/bnum=57142489/wkhr=38/hr=14/hl=1/scres=5/swh=1280x800/sd=1/tile=1/f=2/r=1/optn=1/rclk=https%25253A%25252F%25252Fna.ads.yahoo.com%25252Fyax%25252Fclk%25253Fsn%2525253Db143de838fb43aaaf37df68caf753c1ec008ab83%25252526es%2525253DuKnza7DRVIPTlC8hkzt7PInSHP.VQEoRHDls6AJtTpP_5vLZBXKz7AycjF12uyK44QN9wsNVXEBKqx_ESiGglEqU3XjS29Q9hpXFmLasJJQB4BgZCrTH23jD1myED93nSP_Vim9iIgf3df6C8Egkpg1SH1aEQ0lmWK3_qV0z38m3dyroJln90EL4q04juoZSsfzt4LjcFoBOTaQG0NmRDravElkGaykbiPckP2CwzNAYZCWZHuyVs0CsEA_cw5msulZ_wRCL9R2iOAr4riIni4IgsC2QKEauVPO6X493f_jFH09op6OMnhFc6.dxGko0oi3Abi1LcmhNlEu44uhMf15iQwGCFCpPdg5TcQ--%25252526ve%2525253D2%25252526ty%2525253D0%25252526brxw%2525253Dtrue%25252526sasc%2525253D4%25252526yredirect%2525253D/kvismob=2/fv=0/aolexp=1/tags=1/rtbcpmprice=0.052500000000000005/rip=EiVBUzQxNjU4NjU0NTRjMGZlMDQzODlhNjMyY2I2NjFlZTBhODQ5GPoHIgExKgQxMDE4MhJjYS55YWhvby5jb20vP3A9dXM4_OGaAUCgCUgAfTqwBDmdATqwBDmlAVVntTytAQAAAADdAQAAAADoAQHyAQd1bmtub3du_QE6sAQ5ygIHICxmYWxzZdICByAsZmFsc2XqAgdwcmltYXJ58gIAqgMDd2Vi/rc=15A7ABEA70790FB5DD7CB6ED8CD2B05C/bz=_v8AdQBzAC0AZQBhAHMAdAAtADEAYQ/bidid=6ff28c14-1d6b-220c-daf2-96cb59125e04%253A1499711562392%253A1/pid=1018/limitadtracking=false/dref=https%253A%252F%252Fca.yahoo.com%253Fp%253Dus"
+1499711567130	Marionette	DEBUG	Received DOM event "pageshow" for "https://secure.ace.advertising.com/ctst=1/site=962967/size=300250/u=2/bnum=9200109/wkhr=38/hr=14/hl=1/scres=5/swh=1280x800/sd=1/tile=1/f=2/r=1/optn=1/rclk=https%25253A%25252F%25252Fna.ads.yahoo.com%25252Fyax%25252Fclk%25253Fsn%2525253D5f26bc90d3026dc476b3decded865aa4bb4528bf%25252526es%2525253DwEK6gd7RVIOO7GAqn.1vi.AdfMtML9QJumQ4Aozss5rZLXMehV1t2Hyg9RLZ9YbdGonBCsJ4LH1MstPWaLl5TWv.UBXKwZlDEVCsIhnkqg_boLWQjIxLM_QqdsFhB.0rg97HXevTPU0oayCKeuds8C9zlPUQGc4prjvfriPBQfMP1Se__8xDKPR95sEBQH5NNLs1LlaFQutdsf1ZkigUE6sLn1xZlq7hYWskkLJSvVmh0Hr5pvmqF6k8zHngyYhoKDipmkTfOQ.qlgfTx3lElXEPenhGtio__KNTsRLDSpE5goGumFHWN1usVPPT8QlCBVv49x0nFOlhtvg8iV3oVfvtXcg5wase1WjqcZiW%25252526ve%2525253D2%25252526ty%2525253D0%25252526brxw%2525253Dtrue%25252526sasc%2525253D4%25252526yredirect%2525253D/kvismob=2/fv=0/aolexp=1/tags=1/rtbcpmprice=0.10500000000000001/rip=EiVBUzQxNjU4NjU0NTA4NmFmYzQ2Mzc4N2I5ZmQ4ZGExNDkzOTg3GPoHIgExKgQxMDE4MhJjYS55YWhvby5jb20vP3A9dXM4u-CgAUCgCUgAfbDKRjmdAbDKRjmlAVVntTytAQAAAADdAQAAAADoAQHyAQVhYm92Zf0BsMpGOcoCByAsZmFsc2XSAgcgLGZhbHNl6gIHcHJpbWFyefICAKoDA3dlYg/rc=EFDFE62F831C7DAC7A1AF1FF7B806DFB/bz=_v8AdQBzAC0AZQBhAHMAdAAtADEAYw/bidid=8f40a824-562a-552d-09b5-1a6dfe7f64b9%253A1499711562391%253A1/pid=1018/limitadtracking=false/dref=https%253A%252F%252Fca.yahoo.com%253Fp%253Dus"
+1499711567159	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711567196	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711567272	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499711567306	Marionette	DEBUG	Received DOM event "pageshow" for "https://ca.yahoo.com/?p=us"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+2017-07-10 14:36:18.392 plugin-container[560:10424] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-10 14:36:18.395 plugin-container[560:10424] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499711811226	Marionette	INFO	Ceased listening
+1499711813255	Marionette	INFO	Listening on port 49662
+2017-07-10 14:36:53.595 plugin-container[563:10946] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x973f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-10 14:36:53.598 plugin-container[563:10946] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9a03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1499781559966	geckodriver	INFO	Listening on 127.0.0.1:51420
+1499781561067	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499781563484	Marionette	INFO	Listening on port 51429
+1499781563595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499781563769	Marionette	DEBUG	loaded listener.js
+1499781563799	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-11 09:59:23.868 plugin-container[1544:75805] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x953b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-11 09:59:23.871 plugin-container[1544:75805] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9803, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499781563965	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499781563966	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499781565139	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499781565153	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499781565303	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ca.yahoo.com/?p=us"
+1499781566011	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781566015	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781570246	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://indiaonclick.com/commertial/1099331181.js?in_pub=&in_domain=http%3A%2F%2Fyahoo-101366551.com&in_click=https%3A%2F%2Fclick-west.acuityplatform.com%2FAdserver%2Flanding%3Fbc%3D475488%26position%3D1%26bannerid%3D673578%26campaignid%3D195646%26mastercampaignid%3D66612%26sizeid%3D3%26exid%3D17%26adid%3D0%26xuid%3DfE4v4EjK93QWt1LDtNbrI.M0%26agentcode%3D71%26geocode%3D22%26geostrcode%3D%26siteid%3D40841053647%26inventoryid%3D233297837%26pubid%3D0%26reqid%3Dc2b78a2c-5cb0-0aeb-2eac-fc61eaeab0e6%26ip%3D1825a700%26ts%3D15d31f282a2%26test%3D0%26rc%3D1%26cnt%3DCA%26rg%3DQC%26cty%3DVICTORIAVILLE%26ert%3D0%26erid%3D%26ag%3D7%26gnd%3D2%26ca%3D0%26bauid%3Dnull%26cvt%3D99%26uq%3D0%26sg%3D0%26sgs%3D%26sgmt%3D%26tt%3Dc2b78a2c-5cb0-0aeb-2eac-fc61eaeab0e6%26uaos%3D6%26uab%3D7%26dealid%3D0%26pw%3D-1%26ph%3D-1%26ist%3D15d31f282a2%26pl%3D0%26vrt%3D0%26vrl%3D%26topics%3D20939%26chnls%3D%26lat%3D46.082794%26long%3D-71.9728%26sw%3D0%26sh%3D0%26dt%3D1%26int%3D0%26devid%3D1%26landingUrl%3D&in_zone=349"
+1499781570468	Marionette	DEBUG	Received DOM event "pageshow" for "https://indiaonclick.com/commertial/1099331181.js?in_pub=&in_domain=http%3A%2F%2Fyahoo-101366551.com&in_click=https%3A%2F%2Fclick-west.acuityplatform.com%2FAdserver%2Flanding%3Fbc%3D475488%26position%3D1%26bannerid%3D673578%26campaignid%3D195646%26mastercampaignid%3D66612%26sizeid%3D3%26exid%3D17%26adid%3D0%26xuid%3DfE4v4EjK93QWt1LDtNbrI.M0%26agentcode%3D71%26geocode%3D22%26geostrcode%3D%26siteid%3D40841053647%26inventoryid%3D233297837%26pubid%3D0%26reqid%3Dc2b78a2c-5cb0-0aeb-2eac-fc61eaeab0e6%26ip%3D1825a700%26ts%3D15d31f282a2%26test%3D0%26rc%3D1%26cnt%3DCA%26rg%3DQC%26cty%3DVICTORIAVILLE%26ert%3D0%26erid%3D%26ag%3D7%26gnd%3D2%26ca%3D0%26bauid%3Dnull%26cvt%3D99%26uq%3D0%26sg%3D0%26sgs%3D%26sgmt%3D%26tt%3Dc2b78a2c-5cb0-0aeb-2eac-fc61eaeab0e6%26uaos%3D6%26uab%3D7%26dealid%3D0%26pw%3D-1%26ph%3D-1%26ist%3D15d31f282a2%26pl%3D0%26vrt%3D0%26vrl%3D%26topics%3D20939%26chnls%3D%26lat%3D46.082794%26long%3D-71.9728%26sw%3D0%26sh%3D0%26dt%3D1%26int%3D0%26devid%3D1%26landingUrl%3D&in_zone=349"
+1499781572905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://indiaonclick.com/commertial/1099331181.js?in_pub=&in_domain=http%3A%2F%2Fyahoo-101366551.com&in_click=https%3A%2F%2Fclick-west.acuityplatform.com%2FAdserver%2Flanding%3Fbc%3D160370%26position%3D3%26bannerid%3D673578%26campaignid%3D195646%26mastercampaignid%3D66612%26sizeid%3D3%26exid%3D17%26adid%3D0%26xuid%3DfE4v4EjK93QWt1LDtNbrI.M0%26agentcode%3D71%26geocode%3D22%26geostrcode%3D%26siteid%3D40841053647%26inventoryid%3D233297837%26pubid%3D0%26reqid%3D1703a81a-6854-d49d-e04e-af59cafefe4c%26ip%3D1825a700%26ts%3D15d31f2829a%26test%3D0%26rc%3D1%26cnt%3DCA%26rg%3DQC%26cty%3DVICTORIAVILLE%26ert%3D0%26erid%3D%26ag%3D7%26gnd%3D2%26ca%3D0%26bauid%3Dnull%26cvt%3D0%26uq%3D0%26sg%3D0%26sgs%3D%26sgmt%3D%26tt%3D1703a81a-6854-d49d-e04e-af59cafefe4c%26uaos%3D6%26uab%3D7%26dealid%3D0%26pw%3D-1%26ph%3D-1%26ist%3D15d31f2829a%26pl%3D0%26vrt%3D0%26vrl%3D%26topics%3D20939%26chnls%3D%26lat%3D46.082794%26long%3D-71.9728%26sw%3D0%26sh%3D0%26dt%3D1%26int%3D0%26devid%3D1%26landingUrl%3D&in_zone=349"
+1499781573113	Marionette	DEBUG	Received DOM event "pageshow" for "https://indiaonclick.com/commertial/1099331181.js?in_pub=&in_domain=http%3A%2F%2Fyahoo-101366551.com&in_click=https%3A%2F%2Fclick-west.acuityplatform.com%2FAdserver%2Flanding%3Fbc%3D160370%26position%3D3%26bannerid%3D673578%26campaignid%3D195646%26mastercampaignid%3D66612%26sizeid%3D3%26exid%3D17%26adid%3D0%26xuid%3DfE4v4EjK93QWt1LDtNbrI.M0%26agentcode%3D71%26geocode%3D22%26geostrcode%3D%26siteid%3D40841053647%26inventoryid%3D233297837%26pubid%3D0%26reqid%3D1703a81a-6854-d49d-e04e-af59cafefe4c%26ip%3D1825a700%26ts%3D15d31f2829a%26test%3D0%26rc%3D1%26cnt%3DCA%26rg%3DQC%26cty%3DVICTORIAVILLE%26ert%3D0%26erid%3D%26ag%3D7%26gnd%3D2%26ca%3D0%26bauid%3Dnull%26cvt%3D0%26uq%3D0%26sg%3D0%26sgs%3D%26sgmt%3D%26tt%3D1703a81a-6854-d49d-e04e-af59cafefe4c%26uaos%3D6%26uab%3D7%26dealid%3D0%26pw%3D-1%26ph%3D-1%26ist%3D15d31f2829a%26pl%3D0%26vrt%3D0%26vrl%3D%26topics%3D20939%26chnls%3D%26lat%3D46.082794%26long%3D-71.9728%26sw%3D0%26sh%3D0%26dt%3D1%26int%3D0%26devid%3D1%26landingUrl%3D&in_zone=349"
+1499781574647	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781581203	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781581216	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781581611	Marionette	DEBUG	Received DOM event "pageshow" for "https://ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html"
+1499781581614	Marionette	DEBUG	Received DOM event "pageshow" for "https://ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html"
+1499781581848	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483662"
+1499781581849	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1499781581851	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1499781581865	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html"
+1499781581869	Marionette	DEBUG	Received DOM event "pageshow" for "https://ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html"
+1499781581879	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781581884	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781581885	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781581889	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781582920	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ca.yahoo.com/sdarla/php/fc.php?tID=1&d=0&f=1197793613&l=LREC-0%2CMAST-0%2CLDRB-0%2CMON-0%2CFSRVY-0%2CFOOT9-0%2CLREC2-0%2CLREC3-0%2CLDRB2-1%2CLDRB2-2&rn=1499781581906&en=utf-8&npv=true&lang=en-CA&filter=no_expandable%253Bexp_iframe_expandable%253B&ref=https%253A//ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html&secure=true&tgt=_blank&property=news&sa=LREC%253D%2527300x250%253B1x1%2527%2520LREC2%253D%2527300x250%253B1x1%2527%2520LREC3%253D%2527300x250%253B1x1%2527%2520UBALREC%253D%2527300x250%253B1x1%2527%2520UBALREC2%253D%2527300x250%253B1x1%2527%2520UBALREC3%253D%2527300x250%253B1x1%2527%2520MON%253D%2527300x600%253B1x1%2527%2520megamodal%253Dtrue%2520wiki_topics%253D%2522Gangnam_Style%253BYouTube%253BWiz_Khalifa%253BMusic_video%253BPsy%253BLuis_Fonsi%253BJustin_Bieber%253BCharlie_Puth%253BCentenarian%253BBruno_Mars%2522%2520ctopid%253D%25221035500%2522%2520hashtag%253D%25221035500%2522%2520rs%253D%2522lmsid%253Aa0Vd000000DTrEpEAL%253Brevsp%253Anews.mashable%253Blpstaid%253A59e4e521-4a5a-3ea0-be84-25c519d50eba%253Bpt%253Acontent%253Bpct%253Astory%253Bpd%253Amodal%253Bver%253Amega%2522%2520Y-BUCKET%253D%2522CA332%2522%2520ctout%253D380&ult=pg%253Adevice%25253Adesktop%25253Bintl%25253ACA%25253Bproperty%25253Anews%25253Brid%25253A615jkhtcm9mdq%25253Btest%25253ACA332&clw=LREC-0%253Ablocked_by%25253AMON-0%253BMON-0%253Ablocked_by%25253ALREC-0%253BMAST-0%253Ablocked_by%25253ALDRB-0%2525252CSPL-0%253BSPL-0%253Ablocked_by%25253ALDRB-0%2525252CMAST-0%253BLDRB-0%253Ablocked_by%25253AMAST-0%2525252CSPL-0"
+1499781582927	Marionette	DEBUG	Received DOM event "pageshow" for "https://ca.yahoo.com/sdarla/php/fc.php?tID=1&d=0&f=1197793613&l=LREC-0%2CMAST-0%2CLDRB-0%2CMON-0%2CFSRVY-0%2CFOOT9-0%2CLREC2-0%2CLREC3-0%2CLDRB2-1%2CLDRB2-2&rn=1499781581906&en=utf-8&npv=true&lang=en-CA&filter=no_expandable%253Bexp_iframe_expandable%253B&ref=https%253A//ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html&secure=true&tgt=_blank&property=news&sa=LREC%253D%2527300x250%253B1x1%2527%2520LREC2%253D%2527300x250%253B1x1%2527%2520LREC3%253D%2527300x250%253B1x1%2527%2520UBALREC%253D%2527300x250%253B1x1%2527%2520UBALREC2%253D%2527300x250%253B1x1%2527%2520UBALREC3%253D%2527300x250%253B1x1%2527%2520MON%253D%2527300x600%253B1x1%2527%2520megamodal%253Dtrue%2520wiki_topics%253D%2522Gangnam_Style%253BYouTube%253BWiz_Khalifa%253BMusic_video%253BPsy%253BLuis_Fonsi%253BJustin_Bieber%253BCharlie_Puth%253BCentenarian%253BBruno_Mars%2522%2520ctopid%253D%25221035500%2522%2520hashtag%253D%25221035500%2522%2520rs%253D%2522lmsid%253Aa0Vd000000DTrEpEAL%253Brevsp%253Anews.mashable%253Blpstaid%253A59e4e521-4a5a-3ea0-be84-25c519d50eba%253Bpt%253Acontent%253Bpct%253Astory%253Bpd%253Amodal%253Bver%253Amega%2522%2520Y-BUCKET%253D%2522CA332%2522%2520ctout%253D380&ult=pg%253Adevice%25253Adesktop%25253Bintl%25253ACA%25253Bproperty%25253Anews%25253Brid%25253A615jkhtcm9mdq%25253Btest%25253ACA332&clw=LREC-0%253Ablocked_by%25253AMON-0%253BMON-0%253Ablocked_by%25253ALREC-0%253BMAST-0%253Ablocked_by%25253ALDRB-0%2525252CSPL-0%253BSPL-0%253Ablocked_by%25253ALDRB-0%2525252CMAST-0%253BLDRB-0%253Ablocked_by%25253AMAST-0%2525252CSPL-0"
+1499781583038	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/embed/9bZkp7q19f0?enablejsapi=1&"
+1499781583067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/embed/RgKAFK5djSk?enablejsapi=1&"
+1499781583362	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/embed/9bZkp7q19f0?enablejsapi=1&"
+1499781583367	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/embed/RgKAFK5djSk?enablejsapi=1&"
+1499781583393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499781583398	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499781583432	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1499781584652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781584670	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781584678	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781584680	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781584967	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781584972	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781584982	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781584986	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781584988	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781585004	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781585406	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483704"
+1499781585899	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483706"
+1499781586193	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586325	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586536	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586589	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586592	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586652	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586838	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586930	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781586932	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781587042	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781587048	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,32787)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+1499781589404	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://indiaonclick.com/commertial/1099331181.js?in_pub=&in_domain=http%3A%2F%2Fyahoo-252892051.com&in_click=https%3A%2F%2Fclick-west.acuityplatform.com%2FAdserver%2Flanding%3Fbc%3D82523%26position%3D3%26bannerid%3D673578%26campaignid%3D195646%26mastercampaignid%3D66612%26sizeid%3D3%26exid%3D17%26adid%3D0%26xuid%3DfE4v4EjK93QWt1LDtNbrI.M0%26agentcode%3D71%26geocode%3D22%26geostrcode%3D%26siteid%3D41242950518%26inventoryid%3D233762343%26pubid%3D0%26reqid%3D71c05398-9ae6-6703-6dac-9a88b2a16740%26ip%3D1825a700%26ts%3D15d31f2c8cb%26test%3D0%26rc%3D1%26cnt%3DCA%26rg%3DQC%26cty%3DVICTORIAVILLE%26ert%3D0%26erid%3D%26ag%3D7%26gnd%3D2%26ca%3D0%26bauid%3Dnull%26cvt%3D0%26uq%3D0%26sg%3D0%26sgs%3D%26sgmt%3D%26tt%3D71c05398-9ae6-6703-6dac-9a88b2a16740%26uaos%3D6%26uab%3D7%26dealid%3D0%26pw%3D-1%26ph%3D-1%26ist%3D15d31f2c8cb%26pl%3D0%26vrt%3D0%26vrl%3D%26topics%3D20939%26chnls%3D%26lat%3D46.082794%26long%3D-71.9728%26sw%3D0%26sh%3D0%26dt%3D1%26int%3D0%26devid%3D1%26landingUrl%3D&in_zone=349"
+1499781589593	Marionette	DEBUG	Received DOM event "pageshow" for "https://indiaonclick.com/commertial/1099331181.js?in_pub=&in_domain=http%3A%2F%2Fyahoo-252892051.com&in_click=https%3A%2F%2Fclick-west.acuityplatform.com%2FAdserver%2Flanding%3Fbc%3D82523%26position%3D3%26bannerid%3D673578%26campaignid%3D195646%26mastercampaignid%3D66612%26sizeid%3D3%26exid%3D17%26adid%3D0%26xuid%3DfE4v4EjK93QWt1LDtNbrI.M0%26agentcode%3D71%26geocode%3D22%26geostrcode%3D%26siteid%3D41242950518%26inventoryid%3D233762343%26pubid%3D0%26reqid%3D71c05398-9ae6-6703-6dac-9a88b2a16740%26ip%3D1825a700%26ts%3D15d31f2c8cb%26test%3D0%26rc%3D1%26cnt%3DCA%26rg%3DQC%26cty%3DVICTORIAVILLE%26ert%3D0%26erid%3D%26ag%3D7%26gnd%3D2%26ca%3D0%26bauid%3Dnull%26cvt%3D0%26uq%3D0%26sg%3D0%26sgs%3D%26sgmt%3D%26tt%3D71c05398-9ae6-6703-6dac-9a88b2a16740%26uaos%3D6%26uab%3D7%26dealid%3D0%26pw%3D-1%26ph%3D-1%26ist%3D15d31f2c8cb%26pl%3D0%26vrt%3D0%26vrl%3D%26topics%3D20939%26chnls%3D%26lat%3D46.082794%26long%3D-71.9728%26sw%3D0%26sh%3D0%26dt%3D1%26int%3D0%26devid%3D1%26landingUrl%3D&in_zone=349"
+1499781589603	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33258)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33259)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33259)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33259)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33259)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33361)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33361)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33361)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,33361)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,35019)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,35019)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,35019)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,35019)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36111)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36111)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36111)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36111)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+1499781590268	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781590279	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781590284	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781590289	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/os/yc/html/embed-iframe-min.7f33a83d.html"
+1499781591688	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36169)
+1499781601916	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781601956	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781601962	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781602006	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499781602042	Marionette	DEBUG	Received DOM event "pageshow" for "https://ca.yahoo.com/news/apos-gangnam-style-apos-lost-100550052.html"
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+[GFX1-]: Failed to allocate a surface due to invalid size (CDT) Size(2096,36497)
+JavaScript error: http://www.googletagmanager.com/gtm.js?id=GTM-KSH3PK, line 61: NS_ERROR_NOT_INITIALIZED: 
+1499781615728	Marionette	INFO	Ceased listening
+1499785993013	geckodriver	INFO	Listening on 127.0.0.1:53336
+1499785993080	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499785995074	Marionette	INFO	Listening on port 53343
+1499785995175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499785995350	Marionette	DEBUG	loaded listener.js
+1499785995381	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-11 11:13:15.444 plugin-container[1726:96629] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-11 11:13:15.446 plugin-container[1726:96629] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1499785995551	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499785995552	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499785996819	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499785996830	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-csc.html"
+1499785996982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ca.yahoo.com/?p=us"
+1499785997604	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499785997621	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499785997649	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499785997787	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499785997789	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+1499786000304	Marionette	DEBUG	Received DOM event "pageshow" for "https://s.yimg.com/rq/darla/2-9-20/html/r-sf.html"
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+2017-07-11 12:22:04.621 plugin-container[2319:124388] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-11 12:22:04.624 plugin-container[2319:124388] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: https://sp.airnbreak.com/sas/ads/prod/minJS/v2vEngine.js?v=20176111225, line 1: unreachable code after return statement
+JavaScript warning: https://sp.airnbreak.com/sas/ads/prod/minJS/v2vEngine.js?v=20176111225, line 1: unreachable code after return statement
+JavaScript warning: https://sp.airnbreak.com/sas/ads/prod/minJS/v2vEngine.js?v=20176111225, line 1: unreachable code after return statement
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+console.error: PushService: 
+  Failed to drop expired registrations on idle
+  UnknownError
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+2017-07-14 16:13:08.485 plugin-container[7073:488249] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x963b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-14 16:13:08.486 plugin-container[7073:488249] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9903, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.error: 
+  Message: Error: findCssSelector received element not inside document
+  Stack:
+    findCssSelector@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/inspector/css-logic.js:369:11
+getUniqueSelector@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:646:12
+handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+
+findCssSelector@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/inspector/css-logic.js:369:11
+getUniqueSelector@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/inspector.js:646:12
+handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/inspector/css-logic.js, line 369: Error: findCssSelector received element not inside document
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1670, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1670, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:628:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:676:7
+Line: 1670, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:628:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:676:7
+Line: 1670, column: 0
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************

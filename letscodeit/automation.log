@@ -1,0 +1,53 @@
+07/25/2017 03:42:04 PM - LoginClass - INFO: Element found with locator: Login and  locatorType: link
+07/25/2017 03:42:05 PM - LoginClass - INFO: Clicked on element with locator: Login locatorType: link
+07/25/2017 03:42:08 PM - LoginClass - INFO: Element found with locator: user_email and  locatorType: id
+07/25/2017 03:42:08 PM - LoginClass - INFO: Sent data on element with locator: user_email locatorType: id
+07/25/2017 03:42:08 PM - LoginClass - INFO: Element found with locator: user_password and  locatorType: id
+07/25/2017 03:42:08 PM - LoginClass - INFO: Sent data on element with locator: user_password locatorType: id
+07/25/2017 03:42:08 PM - LoginClass - INFO: Element found with locator: commit and  locatorType: name
+07/25/2017 03:42:10 PM - LoginClass - INFO: Clicked on element with locator: commit locatorType: name
+07/25/2017 03:42:13 PM - LoginClass - INFO: Element found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+07/25/2017 03:42:13 PM - LoginClass - INFO: Element present with locator: //div[contains(text(),'Invalid email or password')] locatorType: xpath
+07/25/2017 03:42:13 PM - LoginClass - INFO: Element found with locator: Login and  locatorType: link
+07/25/2017 03:42:14 PM - LoginClass - INFO: Clicked on element with locator: Login locatorType: link
+07/25/2017 03:42:17 PM - LoginClass - INFO: Element found with locator: user_email and  locatorType: id
+07/25/2017 03:42:17 PM - LoginClass - INFO: Sent data on element with locator: user_email locatorType: id
+07/25/2017 03:42:17 PM - LoginClass - INFO: Element found with locator: user_password and  locatorType: id
+07/25/2017 03:42:17 PM - LoginClass - INFO: Sent data on element with locator: user_password locatorType: id
+07/25/2017 03:42:17 PM - LoginClass - INFO: Element found with locator: commit and  locatorType: name
+07/25/2017 03:42:19 PM - LoginClass - INFO: Clicked on element with locator: commit locatorType: name
+07/25/2017 03:42:22 PM - Util - INFO: Actual Text From Application Web UI --> :: Let's Kode It
+07/25/2017 03:42:22 PM - Util - INFO: Expected Text From Application Web UI --> :: Google
+07/25/2017 03:42:22 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+07/25/2017 03:42:22 PM - TestStatus - INFO: Verification UnsuccessfulTitle verification
+07/25/2017 03:42:22 PM - TestStatus - INFO: Screenshot save to directory: /Users/harisrizwan/SeleniumSpace/letscodeit/base/../screenshots/Title verification.1501011742291.png
+07/25/2017 03:42:22 PM - LoginClass - INFO: Element found with locator: .//div[@id='navbar']//span[text()='User Settings'] and  locatorType: xpath
+07/25/2017 03:42:22 PM - LoginClass - INFO: Element present with locator: .//div[@id='navbar']//span[text()='User Settings'] locatorType: xpath
+07/25/2017 03:42:22 PM - TestStatus - INFO: Verification SuccessfulLogin Verification
+07/25/2017 03:42:22 PM - TestStatus - ERROR: test_validLogin Test Failed
+07/25/2017 03:44:16 PM - LoginClass - INFO: Element found with locator: Login and  locatorType: link
+07/25/2017 03:44:17 PM - LoginClass - INFO: Clicked on element with locator: Login locatorType: link
+07/25/2017 03:44:20 PM - LoginClass - INFO: Element found with locator: user_email and  locatorType: id
+07/25/2017 03:44:20 PM - LoginClass - INFO: Sent data on element with locator: user_email locatorType: id
+07/25/2017 03:44:20 PM - LoginClass - INFO: Element found with locator: user_password and  locatorType: id
+07/25/2017 03:44:20 PM - LoginClass - INFO: Sent data on element with locator: user_password locatorType: id
+07/25/2017 03:44:20 PM - LoginClass - INFO: Element found with locator: commit and  locatorType: name
+07/25/2017 03:44:22 PM - LoginClass - INFO: Clicked on element with locator: commit locatorType: name
+07/25/2017 03:44:25 PM - LoginClass - INFO: Element found with locator: //div[contains(text(),'Invalid email or password')] and  locatorType: xpath
+07/25/2017 03:44:25 PM - LoginClass - INFO: Element present with locator: //div[contains(text(),'Invalid email or password')] locatorType: xpath
+07/25/2017 03:44:25 PM - LoginClass - INFO: Element found with locator: Login and  locatorType: link
+07/25/2017 03:44:26 PM - LoginClass - INFO: Clicked on element with locator: Login locatorType: link
+07/25/2017 03:44:29 PM - LoginClass - INFO: Element found with locator: user_email and  locatorType: id
+07/25/2017 03:44:29 PM - LoginClass - INFO: Sent data on element with locator: user_email locatorType: id
+07/25/2017 03:44:29 PM - LoginClass - INFO: Element found with locator: user_password and  locatorType: id
+07/25/2017 03:44:29 PM - LoginClass - INFO: Sent data on element with locator: user_password locatorType: id
+07/25/2017 03:44:29 PM - LoginClass - INFO: Element found with locator: commit and  locatorType: name
+07/25/2017 03:44:31 PM - LoginClass - INFO: Clicked on element with locator: commit locatorType: name
+07/25/2017 03:44:34 PM - Util - INFO: Actual Text From Application Web UI --> :: Let's Kode It
+07/25/2017 03:44:34 PM - Util - INFO: Expected Text From Application Web UI --> :: Let's Kode It
+07/25/2017 03:44:34 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+07/25/2017 03:44:34 PM - TestStatus - INFO: Verification SuccessfulTitle verification
+07/25/2017 03:44:34 PM - LoginClass - INFO: Element found with locator: .//div[@id='navbar']//span[text()='User Settings'] and  locatorType: xpath
+07/25/2017 03:44:34 PM - LoginClass - INFO: Element present with locator: .//div[@id='navbar']//span[text()='User Settings'] locatorType: xpath
+07/25/2017 03:44:34 PM - TestStatus - INFO: Verification SuccessfulLogin Verification
+07/25/2017 03:44:34 PM - TestStatus - INFO: test_validLogin Test pass
