@@ -5,11 +5,15 @@ import time
 from selenium.webdriver.chrome.options import Options
 import os
 import urllib.request
+import pandas as pd
+from openpyxl import workbook
+from openpyxl import worksheet
+
 
 
 
 capabilities = DesiredCapabilities.CHROME
-capabilities['loggingPrefs'] = {'browser':'DEBUG' }
+capabilities['loggingPrefs'] = {'browser':'ALL' }
 capabilities['loggingPrefs'] = {'performance':'ALL' }
 
 driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
@@ -21,19 +25,21 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 driver.set_window_position(0,22)
 driver.set_window_size(1280,800)
-baseUrl ='http://dbb1.contobox.com/v3/preview.php?id=17789'
+baseUrl ='file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html'
 # driver = webdriver.Chrome(desired_capabilities=capabilities)
 # http://dbb1.contobox.com/v3/preview.php?id=16720
 driver.get(baseUrl)
 
+# file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html
 
 
-driver.switch_to.frame(0)
-banner=driver.find_element(By.ID,"cb-ctr")
-banner.click()
-print("Pre banner clicked")
 
-driver.implicitly_wait(10)
+# driver.switch_to.frame(0)
+# banner=driver.find_element(By.ID,"cb-ctr")
+# banner.click()
+# print("Pre banner clicked")
+#
+# driver.implicitly_wait(10)
 
 
 
@@ -48,14 +54,37 @@ driver.implicitly_wait(10)
 # for i in entry:
 #     print(entry.keys())
 
-for entry in driver.get_log('browser'):
-    # if entry.level == "WARNING":
-    #     print("it works")
-    print(entry.keys())
+# for entry in driver.get_log('browser'):
+#     # if entry.level == "WARNING":
+#     #     print("it works")
+#     print(entry.keys())
+#
+#     for key, value in entry.items():
+#         if "WARNING" == value:
+#             print ("Here is the log =  " + entry["message"])
 
-    for key, value in entry.items():
-        if "WARNING" == value:
-            print ("Here is the log =  " + entry["message"])
+
+
+
+msg = pd.DataFrame(driver.get_log('browser'))
+
+
+dfstatus= msg[msg['level'].str.contains("SEVERE")]
+
+if dfstatus is not None:
+    writer = pd.ExcelWriter('/Users/harisrizwan/ID+_+Time.xlsx')
+    dfstatus.to_excel(writer,'sheet1',index=False)
+    writer.save()
+    print(dfstatus)
+
+
+dfstatus.to_clipboard(index=False)
+
+
+
+
+
+
 
 
 
@@ -63,13 +92,9 @@ for entry in driver.get_log('browser'):
 
 # desired_capabilities=capabilities,
 
-for value in driver.get_log('performance'):
-
-    print(value)
+# for value in driver.get_log('performance'):
+#
+#     print(value)
 
 # value = driver.get_log('performance')
 # print(value)
-
-x = 2
-
-x = x +1
