@@ -25,7 +25,15 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 driver.set_window_position(0,22)
 driver.set_window_size(1280,800)
-baseUrl ='file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html'
+
+
+Add_id =str(16720)
+
+
+# baseUrl ='file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html'
+
+baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id='+Add_id
+
 # driver = webdriver.Chrome(desired_capabilities=capabilities)
 # http://dbb1.contobox.com/v3/preview.php?id=16720
 driver.get(baseUrl)
@@ -69,10 +77,17 @@ driver.get(baseUrl)
 msg = pd.DataFrame(driver.get_log('browser'))
 
 
-dfstatus= msg[msg['level'].str.contains("SEVERE")]
+dfstatus= msg[msg['level'].str.contains("WARNING")]
+
+x = dfstatus.iloc[0]['timestamp']
+
+#computer only takes timestamp in seconds, our time stamp is in miliseconds thats why we have to divide by 1000
+y = time.ctime(int(x)/1000)
+print(y)
+
 
 if dfstatus is not None:
-    writer = pd.ExcelWriter('/Users/harisrizwan/ID+_+Time.xlsx')
+    writer = pd.ExcelWriter('/Users/harisrizwan/'+Add_id+'_'+y+'.xlsx')
     dfstatus.to_excel(writer,'sheet1',index=False)
     writer.save()
     print(dfstatus)
@@ -98,3 +113,5 @@ dfstatus.to_clipboard(index=False)
 
 # value = driver.get_log('performance')
 # print(value)
+
+driver.quit()

@@ -12,6 +12,8 @@ import pandas as pd
 capabilities = DesiredCapabilities.CHROME
 capabilities['loggingPrefs'] = {'browser': 'DEBUG'}
 capabilities['loggingPrefs'] = {'performance': 'ALL'}
+capabilities['perfLoggingPrefs'] = {'enableTimeline': 'true'}
+
 
 driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
 os.environ["chrome.driver"] = driverLocation
@@ -43,6 +45,8 @@ driver.implicitly_wait(10)
 # for i in entry:
 #     print(entry.keys())
 
+
+
 for entry in driver.get_log('browser'):
     # if entry.level == "WARNING":
     #     print("it works")
@@ -52,6 +56,12 @@ for entry in driver.get_log('browser'):
         if "WARNING" == value:
             print("Here is the log =  " + entry["message"])
 
+
+
+
+
+
+
 # desired_capabilities=capabilities,
 
 df = pd.DataFrame(driver.get_log('performance')) ###creating a dataframe on pandas having 3 collumns : level, message and timestamp
@@ -60,13 +70,17 @@ df = pd.DataFrame(driver.get_log('performance')) ###creating a dataframe on pand
 # dfnetworkonly2 = dfnetworkonly[dfnetworkonly['message'].str.contains("Network.loadingFinished")] ###creating a NEW dataframe,base on dfnetworkonly, BUT having only rows where the word "Network.loadingFinished" is in the row.
 
 
-dfstatus= df[df['message'].str.contains("Network")]
-dfstatus2=dfstatus[dfstatus['message'].str.contains('"status":200,"statusText":"OK"')]
+# print(df)
+
+# dfstatus= df[df['message'].str.contains("Network")]
+# dfstatus2=dfstatus[dfstatus['message'].str.contains('"status":200,"statusText":"OK"')]
 
 
-print(dfstatus2)
+# print(dfstatus2)
 
-dfstatus2.to_clipboard(index=False)
+# dfstatus2.to_clipboard(index=False)
+
+df.to_clipboard(index=False)
 
 # dfnetworkonly2.to_clipboard(index=False) ##export to clipboard (copy paste)
 #dfnetworkonly2.to_csv('/Users/alain/Desktop/working/result.csv',index=False) #export to csv
@@ -81,3 +95,5 @@ dfstatus2.to_clipboard(index=False)
 
     # value = driver.get_log('performance')
     # print(value)
+
+driver.quit()

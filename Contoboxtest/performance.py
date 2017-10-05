@@ -8,7 +8,7 @@ driver = webdriver.Chrome(driverLocation)
 driver.implicitly_wait(10)
 driver.maximize_window()
 
-source = "http://www.babycenter.com/"
+source = "http://dbb1.contobox.com/v3/preview.php?id=17080"
 
 driver.get(source)
 
