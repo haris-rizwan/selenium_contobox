@@ -27,7 +27,7 @@ driver.set_window_position(0,22)
 driver.set_window_size(1280,800)
 
 
-Add_id =str(17831)
+Add_id =str(14164)
 
 
 baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id='+Add_id
@@ -44,8 +44,12 @@ dfstatus= msg[msg['level'].str.contains("SEVERE")]
 #
 # y = time.ctime(int(x)/1000)
 # print(y)
+print(dfstatus)
 
-if dfstatus is not None:
+if dfstatus.empty:
+    print("No errors")
+
+else:
     x = dfstatus.iloc[0]['timestamp']
     # y = time.ctime(int(x) / 1000)
     y = str(datetime.datetime.strptime(time.ctime(int(x) / 1000 ), "%a %b %d %H:%M:%S %Y"))
