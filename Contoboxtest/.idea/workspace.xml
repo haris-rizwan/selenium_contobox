@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52494be-67ac-47d8-b86b-563b87e1e0e5" name="Default" comment="panda excel file writing">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialButton1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialButton2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialButton3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SocialButton4.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsError.py" afterPath="$PROJECT_DIR$/jsError.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/performance.py" afterPath="$PROJECT_DIR$/performance.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpanadas.py" afterPath="$PROJECT_DIR$/testpanadas.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +28,7 @@
       <file leaf-file-name="Social_buttons_chrome.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="-2264">
               <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -49,8 +52,20 @@
       <file leaf-file-name="jsError.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsError.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1246">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Qa_Log.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Qa_Log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -68,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testpanadas.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testpanadas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpanadas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="1159">
               <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -133,19 +148,19 @@
         <option value="$PROJECT_DIR$/wait.py" />
         <option value="$PROJECT_DIR$/testcase.py" />
         <option value="$PROJECT_DIR$/social_buttons_headless.py" />
-        <option value="$PROJECT_DIR$/Social_buttons_chrome.py" />
         <option value="$PROJECT_DIR$/http.py" />
         <option value="$PROJECT_DIR$/testing_web.py" />
         <option value="$PROJECT_DIR$/selenium.py" />
-        <option value="$PROJECT_DIR$/jsError.py" />
         <option value="$PROJECT_DIR$/performance.py" />
         <option value="$PROJECT_DIR$/testpanadas.py" />
+        <option value="$PROJECT_DIR$/jsError.py" />
+        <option value="$PROJECT_DIR$/Social_buttons_chrome.py" />
+        <option value="$PROJECT_DIR$/Qa_Log.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="23" />
+    <option name="y" value="26" />
     <option name="width" value="1280" />
     <option name="height" value="737" />
   </component>
@@ -204,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testPandas">
+  <component name="RunManager" selected="Python.QA_log">
     <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -643,7 +658,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <list size="19">
+    <configuration default="false" name="QA_log" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Contoboxtest" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qa_Log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="20">
       <item index="0" class="java.lang.String" itemvalue="Python.Safari" />
       <item index="1" class="java.lang.String" itemvalue="Python.browsertest" />
       <item index="2" class="java.lang.String" itemvalue="Python.FireFox" />
@@ -658,11 +691,12 @@
       <item index="11" class="java.lang.String" itemvalue="Python.Social_buttons_headless" />
       <item index="12" class="java.lang.String" itemvalue="Python.testing_web" />
       <item index="13" class="java.lang.String" itemvalue="Python.testPandas" />
-      <item index="14" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="15" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="16" class="java.lang.String" itemvalue="Python.test3" />
-      <item index="17" class="java.lang.String" itemvalue="Python.test4" />
-      <item index="18" class="java.lang.String" itemvalue="Python.ChromeTest" />
+      <item index="14" class="java.lang.String" itemvalue="Python.QA_log" />
+      <item index="15" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="16" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="17" class="java.lang.String" itemvalue="Python.test3" />
+      <item index="18" class="java.lang.String" itemvalue="Python.test4" />
+      <item index="19" class="java.lang.String" itemvalue="Python.ChromeTest" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -716,10 +750,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="1280" height="737" extended-state="0" />
+    <frame x="0" y="26" width="1280" height="737" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26009694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26009694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -773,7 +807,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2016.3/python_stubs/-2010535109/builtins.py" />
     <entry file="file://$PROJECT_DIR$/test3.py" />
     <entry file="file://$PROJECT_DIR$/Tab5.png" />
     <entry file="file://$PROJECT_DIR$/Tab6.png" />
@@ -928,26 +961,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/selenium.py" />
-    <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsError.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1246">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testing_web.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -968,8 +981,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testpanadas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
+        <state relative-caret-position="1159">
           <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2264">
+          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qa_Log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

@@ -6,9 +6,9 @@ from selenium.webdriver.chrome.options import Options
 import os
 import urllib.request
 import pandas as pd
+import datetime
 from openpyxl import workbook
 from openpyxl import worksheet
-
 
 
 
@@ -30,47 +30,9 @@ driver.set_window_size(1280,800)
 Add_id =str(17831)
 
 
-# baseUrl ='file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html'
-
 baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id='+Add_id
 
-# driver = webdriver.Chrome(desired_capabilities=capabilities)
-# http://dbb1.contobox.com/v3/preview.php?id=16720
 driver.get(baseUrl)
-
-# file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html
-
-
-
-# driver.switch_to.frame(0)
-# banner=driver.find_element(By.ID,"cb-ctr")
-# banner.click()
-# print("Pre banner clicked")
-#
-# driver.implicitly_wait(10)
-
-
-
-
-
-# print console log messages
-
-#all the log entries every single entry is in form of a dictionary object.
-
-# entry = driver.get_log('browser')
-# print(entry)
-# for i in entry:
-#     print(entry.keys())
-
-# for entry in driver.get_log('browser'):
-#     # if entry.level == "WARNING":
-#     #     print("it works")
-#     print(entry.keys())
-#
-#     for key, value in entry.items():
-#         if "WARNING" == value:
-#             print ("Here is the log =  " + entry["message"])
-
 
 
 
@@ -78,16 +40,16 @@ msg = pd.DataFrame(driver.get_log('browser'))
 
 print(msg)
 dfstatus= msg[msg['level'].str.contains("SEVERE")]
-
-
-x = dfstatus.iloc[0]['timestamp']
-
-#computer only takes timestamp in seconds, our time stamp is in miliseconds thats why we have to divide by 1000
-y = time.ctime(int(x)/1000)
-print(y)
-
+# x = dfstatus.iloc[0]['timestamp']
+#
+# y = time.ctime(int(x)/1000)
+# print(y)
 
 if dfstatus is not None:
+    x = dfstatus.iloc[0]['timestamp']
+    # y = time.ctime(int(x) / 1000)
+    y = str(datetime.datetime.strptime(time.ctime(int(x) / 1000 ), "%a %b %d %H:%M:%S %Y"))
+    print(y)
     writer = pd.ExcelWriter('/Users/harisrizwan/'+Add_id+'_'+y+'.xlsx')
     dfstatus.to_excel(writer,'sheet1',index=False)
     writer.save()
@@ -96,23 +58,5 @@ if dfstatus is not None:
 
 dfstatus.to_clipboard(index=False)
 
-
-
-
-
-
-
-
-
-
-
-# desired_capabilities=capabilities,
-
-# for value in driver.get_log('performance'):
-#
-#     print(value)
-
-# value = driver.get_log('performance')
-# print(value)
 
 driver.quit()
