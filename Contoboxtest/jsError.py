@@ -30,9 +30,9 @@ driver.set_window_size(1280,800)
 Add_id =str(17831)
 
 
-# baseUrl ='file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html'
+baseUrl ='file:///Users/harisrizwan/Desktop/test/ToDO%20list/index.html'
 
-baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id='+Add_id
+# baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id='+Add_id
 
 # driver = webdriver.Chrome(desired_capabilities=capabilities)
 # http://dbb1.contobox.com/v3/preview.php?id=16720
@@ -88,7 +88,7 @@ print(y)
 
 
 if dfstatus is not None:
-    writer = pd.ExcelWriter('/Users/harisrizwan/'+Add_id+'_'+y+'.xlsx')
+    writer = pd.ExcelWriter('/Users/harisrizwan/js_error_example.xlsx')
     dfstatus.to_excel(writer,'sheet1',index=False)
     writer.save()
     print(dfstatus)

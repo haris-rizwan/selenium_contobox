@@ -27,7 +27,7 @@ driver.set_window_position(0,22)
 driver.set_window_size(1280,800)
 
 
-Add_id =str(14164)
+Add_id =str(16928)
 
 
 baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id='+Add_id
@@ -40,10 +40,7 @@ msg = pd.DataFrame(driver.get_log('browser'))
 
 print(msg)
 dfstatus= msg[msg['level'].str.contains("SEVERE")]
-# x = dfstatus.iloc[0]['timestamp']
-#
-# y = time.ctime(int(x)/1000)
-# print(y)
+
 print(dfstatus)
 
 if dfstatus.empty:
