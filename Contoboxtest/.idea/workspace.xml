@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a52494be-67ac-47d8-b86b-563b87e1e0e5" name="Default" comment="panda excel file writing">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ChromeTest.py" afterPath="$PROJECT_DIR$/ChromeTest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Qa_Log.py" afterPath="$PROJECT_DIR$/Qa_Log.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Social_buttons_chrome.py" afterPath="$PROJECT_DIR$/Social_buttons_chrome.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsError.py" afterPath="$PROJECT_DIR$/jsError.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Social_buttons_firefox.py" afterPath="$PROJECT_DIR$/Social_buttons_firefox.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testpanadas.py" afterPath="$PROJECT_DIR$/testpanadas.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="Social_buttons_chrome.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state relative-caret-position="293">
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -34,10 +36,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Social_buttons_firefox.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Social_buttons_firefox.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-310">
+              <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChromeTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ChromeTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="social_buttons_headless.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/social_buttons_headless.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1200">
+            <state relative-caret-position="19">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -49,8 +71,8 @@
       <file leaf-file-name="jsError.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsError.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="-136">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -61,7 +83,7 @@
       <file leaf-file-name="Qa_Log.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Qa_Log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="-348">
               <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -73,8 +95,8 @@
       <file leaf-file-name="performance.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/performance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="190">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,8 +105,8 @@
       <file leaf-file-name="testpanadas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpanadas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+            <state relative-caret-position="-63">
+              <caret line="81" column="2" lean-forward="false" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -95,7 +117,7 @@
       <file leaf-file-name="testing_web.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testing_web.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state relative-caret-position="76">
               <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
@@ -140,8 +162,6 @@
         <option value="$PROJECT_DIR$/testcasefirefox.py" />
         <option value="$PROJECT_DIR$/csv" />
         <option value="$PROJECT_DIR$/firefox.py" />
-        <option value="$PROJECT_DIR$/ChromeTest.py" />
-        <option value="$PROJECT_DIR$/Social_buttons_firefox.py" />
         <option value="$PROJECT_DIR$/wait.py" />
         <option value="$PROJECT_DIR$/testcase.py" />
         <option value="$PROJECT_DIR$/social_buttons_headless.py" />
@@ -149,17 +169,19 @@
         <option value="$PROJECT_DIR$/testing_web.py" />
         <option value="$PROJECT_DIR$/selenium.py" />
         <option value="$PROJECT_DIR$/performance.py" />
-        <option value="$PROJECT_DIR$/testpanadas.py" />
         <option value="$PROJECT_DIR$/jsError.py" />
-        <option value="$PROJECT_DIR$/Social_buttons_chrome.py" />
         <option value="$PROJECT_DIR$/Qa_Log.py" />
+        <option value="$PROJECT_DIR$/Social_buttons_chrome.py" />
+        <option value="$PROJECT_DIR$/ChromeTest.py" />
+        <option value="$PROJECT_DIR$/Social_buttons_firefox.py" />
+        <option value="$PROJECT_DIR$/testpanadas.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="26" />
+    <option name="y" value="24" />
     <option name="width" value="1280" />
-    <option name="height" value="737" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -177,6 +199,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,8 +215,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QA_log">
+  <component name="RunManager" selected="Python.testPandas">
     <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -747,13 +769,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1280" height="737" extended-state="0" />
+    <frame x="0" y="24" width="1280" height="739" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26009694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2641357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28372094" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2843895" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -766,6 +788,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -881,26 +904,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Social_buttons_firefox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3002">
-          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialButton3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialButton3.png" />
     <entry file="file://$PROJECT_DIR$/1.png" />
-    <entry file="file://$PROJECT_DIR$/ChromeTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-562">
-          <caret line="115" column="51" lean-forward="true" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Social-share-tab.png" />
     <entry file="file://$PROJECT_DIR$/wait.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -924,21 +929,9 @@
     <entry file="file://$PROJECT_DIR$/Share-Icons4.png" />
     <entry file="file://$PROJECT_DIR$/Share-Icons5.png" />
     <entry file="file://$PROJECT_DIR$/Share-Icons6.png" />
-    <entry file="file://$PROJECT_DIR$/SocialButton1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialButton2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SocialButton4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SocialButton1.png" />
+    <entry file="file://$PROJECT_DIR$/SocialButton2.png" />
+    <entry file="file://$PROJECT_DIR$/SocialButton4.png" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1286">
@@ -949,7 +942,7 @@
     <entry file="file://$PROJECT_DIR$/selenium.py" />
     <entry file="file://$PROJECT_DIR$/testing_web.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="76">
           <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
@@ -959,16 +952,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/performance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpanadas.py">
+    <entry file="file://$PROJECT_DIR$/ChromeTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="35">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Social_buttons_firefox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="133" column="30" lean-forward="false" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_buttons_headless.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -977,28 +996,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsError.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="-136">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/social_buttons_headless.py">
+    <entry file="file://$PROJECT_DIR$/testpanadas.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="20" column="59" lean-forward="false" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state relative-caret-position="-63">
+          <caret line="81" column="2" lean-forward="false" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -1007,7 +1016,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Qa_Log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="-348">
           <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />

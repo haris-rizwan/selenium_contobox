@@ -129,7 +129,7 @@ if social_Buttons is not None:
             driver.switch_to.default_content()
             driver.switch_to.frame(1)
         else:
-            print("Element no optically visible")
+            print("Element not optically visible")
 
 else:
     print("Social Buttons not present")

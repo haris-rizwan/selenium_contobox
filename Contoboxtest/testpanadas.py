@@ -24,7 +24,7 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 driver.set_window_position(0, 22)
 driver.set_window_size(1280, 800)
-baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id=17086'
+baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id=15522'
 # driver = webdriver.Chrome(desired_capabilities=capabilities)
 # http://dbb1.contobox.com/v3/preview.php?id=16720
 driver.get(baseUrl)
@@ -60,8 +60,6 @@ for entry in driver.get_log('browser'):
 
 
 
-
-
 # desired_capabilities=capabilities,
 
 df = pd.DataFrame(driver.get_log('performance')) ###creating a dataframe on pandas having 3 collumns : level, message and timestamp
@@ -72,15 +70,18 @@ df = pd.DataFrame(driver.get_log('performance')) ###creating a dataframe on pand
 
 # print(df)
 
-# dfstatus= df[df['message'].str.contains("Network")]
-# dfstatus2=dfstatus[dfstatus['message'].str.contains('"status":200,"statusText":"OK"')]
+
+
+dfstatus= df[df['message'].str.contains("Network")]
+# dfstatus2=dfstatus[dfstatus['message'].str.contains('Network.loadingFinished')]
+# '"status":200,"statusText":"OK"'
 
 
 # print(dfstatus2)
 
-# dfstatus2.to_clipboard(index=False)
-
 df.to_clipboard(index=False)
+
+# df.to_clipboard(index=False)
 
 # dfnetworkonly2.to_clipboard(index=False) ##export to clipboard (copy paste)
 #dfnetworkonly2.to_csv('/Users/alain/Desktop/working/result.csv',index=False) #export to csv
