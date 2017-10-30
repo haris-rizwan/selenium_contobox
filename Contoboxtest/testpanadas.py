@@ -19,7 +19,7 @@ driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
 os.environ["chrome.driver"] = driverLocation
 chrome_options = Options()
 chrome_options.add_argument("headless")
-driver = webdriver.Chrome(driverLocation, chrome_options=chrome_options, desired_capabilities=capabilities)
+driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options,desired_capabilities=capabilities)
 driver.implicitly_wait(10)
 driver.maximize_window()
 driver.set_window_position(0, 22)
@@ -29,10 +29,12 @@ baseUrl = 'http://dbb1.contobox.com/v3/preview.php?id=15522'
 # http://dbb1.contobox.com/v3/preview.php?id=16720
 driver.get(baseUrl)
 
-driver.switch_to.frame(0)
-banner = driver.find_element(By.ID, "cb-ctr")
-banner.click()
-print("Pre banner clicked")
+# driver.switch_to.frame(0)
+# banner = driver.find_element(By.ID, "cb-ctr")
+# banner.click()
+# print("Pre banner clicked")
+#
+# time.sleep(15)
 
 driver.implicitly_wait(10)
 
@@ -60,6 +62,8 @@ for entry in driver.get_log('browser'):
 
 
 
+
+
 # desired_capabilities=capabilities,
 
 df = pd.DataFrame(driver.get_log('performance')) ###creating a dataframe on pandas having 3 collumns : level, message and timestamp
@@ -67,17 +71,18 @@ df = pd.DataFrame(driver.get_log('performance')) ###creating a dataframe on pand
 # dfnetworkonly = df[df['message'].str.contains("Network")] ###creating a NEW dataframe,base on df, BUT having only rows with the word "Network" in the message line.
 # dfnetworkonly2 = dfnetworkonly[dfnetworkonly['message'].str.contains("Network.loadingFinished")] ###creating a NEW dataframe,base on dfnetworkonly, BUT having only rows where the word "Network.loadingFinished" is in the row.
 
-
 # print(df)
 
 
 
 dfstatus= df[df['message'].str.contains("Network")]
-# dfstatus2=dfstatus[dfstatus['message'].str.contains('Network.loadingFinished')]
+dfstatus2=dfstatus[dfstatus['message'].str.contains('"status":200,"statusText":"OK"')]
 # '"status":200,"statusText":"OK"'
 
 
-# print(dfstatus2)
+print(dfstatus2)
+
+
 
 df.to_clipboard(index=False)
 
