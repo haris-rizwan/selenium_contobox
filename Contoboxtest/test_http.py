@@ -23,12 +23,14 @@ options.add_argument(f'--proxy-server={proxy.proxy}')
 driver = webdriver.Chrome(driverLocation, desired_capabilities=options.to_capabilities())
 
 proxy.new_har()
-driver.get('http://dbb1.contobox.com/v3/preview.php?id=12734')
+driver.get('http://dbb1.contobox.com/v3/preview.php?id=18191')
 
-# driver.switch_to.frame(0)
-# banner = driver.find_element(By.ID, "cb-ctr")
-# banner.click()
-# print("Pre banner clicked")
+#12734
+
+driver.switch_to.frame(0)
+banner = driver.find_element(By.ID, "cb-ctr")
+banner.click()
+print("Pre banner clicked")
 
 time.sleep(6)
 
@@ -46,15 +48,19 @@ df.to_clipboard(index=False)
 
 x = df['response']
 
+Num_request = len(x)
+
+print("The Number of Request are {}".format(Num_request))
+
 
 j = 0
-for i in range(0,9):
+for i in range(0,Num_request):
     # print(x[i]['headersSize'])
     j = j + x[i]['headersSize']
     print("header size {0} = {1}".format(i, j))
 
 k = 0
-for i in range(0,9):
+for i in range(0,Num_request):
     # print(x[i]['bodySize'])
     k = k + x[i]['bodySize']
     print("body size {0} = {1}".format(i, k))
