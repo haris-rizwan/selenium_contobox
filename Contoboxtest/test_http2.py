@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.options import Options
 import json
 import os
 import pandas as pd
+import re
 
 
 #to Use browsermob proxy you have to install using pip and also install the binary file
@@ -21,6 +22,9 @@ os.environ["chrome.driver"] = driverLocation
 options = Options()
 options.add_argument(f'--proxy-server={proxy.proxy}')
 driver = webdriver.Chrome(driverLocation, desired_capabilities=options.to_capabilities())
+
+
+
 
 proxy.new_har()
 driver.get('https://am.contobox.com/v3/preview.php?id=21423')
@@ -42,6 +46,8 @@ json_data = json.loads(result)
 
 
 
+
+
 df = pd.DataFrame([x for x in json_data['log']['entries']])
 
 # request= [x for x in json_data['log']['entries']]
@@ -49,7 +55,21 @@ df = pd.DataFrame([x for x in json_data['log']['entries']])
 df.to_clipboard(index=False)
 
 
+y= df['request']
 x = df['response']
+
+http_check = len(y)
+
+
+l=0
+
+for i in range(0,http_check):
+    # print(y[i]['url'])
+    if re.match(reg,y[i]['url']):
+        print ("found")
+    else:
+        print("all https")
+
 
 
 Num_request = len(x)

@@ -1,14 +1,14 @@
-[INFO  2017-11-06T11:18:08,062 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
-[INFO  2017-11-06T11:18:08,207 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
-[INFO  2017-11-06T11:18:08,272 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
-[WARN  2017-11-06T11:18:09,196 org.eclipse.jetty.util.log] (main) FAILED SelectChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use 
-[WARN  2017-11-06T11:18:09,196 org.eclipse.jetty.util.log] (main) FAILED org.eclipse.jetty.server.Server@301ec38b: java.net.BindException: Address already in use 
-[ERROR 2017-11-06T11:18:09,197 net.lightbody.bmp.proxy.Main] (main) Failed to start Jetty server. Aborting. java.net.BindException: Address already in use
-	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_25]
-	at sun.nio.ch.Net.bind(Net.java:436) ~[?:1.8.0_25]
-	at sun.nio.ch.Net.bind(Net.java:428) ~[?:1.8.0_25]
-	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214) ~[?:1.8.0_25]
-	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_25]
+[INFO  2017-11-15T12:47:46,954 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.4 
+[INFO  2017-11-15T12:47:47,051 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2017-11-15T12:47:47,122 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[WARN  2017-11-15T12:47:47,643 org.eclipse.jetty.util.log] (main) FAILED SelectChannelConnector@0.0.0.0:8080: java.net.BindException: Address already in use 
+[WARN  2017-11-15T12:47:47,644 org.eclipse.jetty.util.log] (main) FAILED org.eclipse.jetty.server.Server@ccd1bc3: java.net.BindException: Address already in use 
+[ERROR 2017-11-15T12:47:47,645 net.lightbody.bmp.proxy.Main] (main) Failed to start Jetty server. Aborting. java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:?]
 	at org.eclipse.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:162) ~[browsermob-dist-2.1.4.jar:?]
 	at org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:356) ~[browsermob-dist-2.1.4.jar:?]
 	at org.eclipse.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:240) ~[browsermob-dist-2.1.4.jar:?]

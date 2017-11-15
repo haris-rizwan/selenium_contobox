@@ -44,6 +44,7 @@ def waitForElement(locatorType,locator, timeout=10, pollFrequency=0.5):
         # element = wait.until(EC.element_to_be_clickable((locator,locatorType)))
         element = wait.until(EC.visibility_of_element_located((locatorType,locator)))
 
+
         print("Element appeared on the web page")
     except:
         print("Element not appeared on the web page")
