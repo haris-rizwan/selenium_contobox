@@ -19,17 +19,20 @@ proxy = server.create_proxy()
 driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
 os.environ["chrome.driver"] = driverLocation
 
-options = Options()
-options.add_argument(f'--proxy-server={proxy.proxy}')
-driver = webdriver.Chrome(driverLocation, desired_capabilities=options.to_capabilities())
+chrome_options = Options()
+# chrome_options.add_argument("headless")
+chrome_options.add_argument(f'--proxy-server={proxy.proxy}')
+driver = webdriver.Chrome(driverLocation,desired_capabilities=chrome_options.to_capabilities())
+# driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 
 
 
 
 proxy.new_har()
-driver.get('https://am.contobox.com/v3/preview.php?id=21423')
+driver.get('https://dbb1.contobox.com/v3/preview.php?id=18191')
 
 # http://dbb1.contobox.com/v3/preview.php?id=18232
+# https://am.contobox.com/v3/preview.php?id=21423
 #12734
 # 18191
 
@@ -63,12 +66,21 @@ http_check = len(y)
 
 l=0
 
+ListOfHttpURL = []
+ListOfHttpsURL = []
+
 for i in range(0,http_check):
     # print(y[i]['url'])
-    if re.match(reg,y[i]['url']):
-        print ("found")
+    w = re.findall(r"\b" + 'https://' + r"\b",y[i]['url'])
+    # print(w)
+    if "https://" in w:
+        ListOfHttpsURL.append(y[i]['url'])
     else:
-        print("all https")
+        ListOfHttpURL.append(y[i]['url'])
+
+# print("Number of Http URLs = " +str(len(ListOfHttpURL)))
+# print("Number of Https URLs = " +str(len(ListOfHttpsURL)))
+
 
 
 
@@ -93,6 +105,8 @@ for i in range(0,Num_request):
 print("Total Header Size = {}".format(j))
 print("Total Body Size = {}".format(k))
 print("The Number of Request are {}".format(Num_request))
+print("Number of Http URLs = " +str(len(ListOfHttpURL)))
+print("Number of Https URLs = " +str(len(ListOfHttpsURL)))
 print("Total Transferred Size = {}kb (+/- 10kb)".format((j + k)/1000))
 # df['headersSize'] = df['response'].str.split(",").str[-3].str[16:].astype(int)
 # df['bodySize'] = df['response'].str.split(",").str[-2].str[13:].astype(int)

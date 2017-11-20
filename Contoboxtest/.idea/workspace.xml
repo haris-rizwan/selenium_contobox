@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a52494be-67ac-47d8-b86b-563b87e1e0e5" name="Default" comment="panda excel file writing">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Social_buttons_chrome.py" afterPath="$PROJECT_DIR$/Social_buttons_chrome.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bmp.log" afterPath="$PROJECT_DIR$/bmp.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.log" afterPath="$PROJECT_DIR$/server.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_http.py" afterPath="$PROJECT_DIR$/test_http.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_http2.py" afterPath="$PROJECT_DIR$/test_http2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="testpanadas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testpanadas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="115">
+              <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="104" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -83,8 +82,8 @@
       <file leaf-file-name="test_http.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_http.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="14" />
+            <state relative-caret-position="473">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -92,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_http2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_http2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_http2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="91">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -104,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regex_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="regex_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regex_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -189,16 +188,15 @@
         <option value="$PROJECT_DIR$/ds.py" />
         <option value="$PROJECT_DIR$/Social_buttons_chrome.py" />
         <option value="$PROJECT_DIR$/test_http.py" />
-        <option value="$PROJECT_DIR$/test_http2.py" />
         <option value="$PROJECT_DIR$/regex_test.py" />
+        <option value="$PROJECT_DIR$/test_http2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-704" />
-    <option name="y" value="-1417" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="y" value="104" />
+    <option name="width" value="1280" />
+    <option name="height" value="736" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.regx">
+  <component name="RunManager" selected="Python.test_http2">
     <configuration default="false" name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -842,13 +840,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-704" y="-1417" width="2560" height="1417" extended-state="0" />
+    <frame x="0" y="104" width="1280" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13661636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.49676898" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33433962" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3757764" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1070,16 +1068,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testpanadas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Social_buttons_chrome.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -1090,31 +1078,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/regex_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_http.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="80" selection-end-column="14" />
+        <state relative-caret-position="473">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testpanadas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="104" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_http2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        <state relative-caret-position="91">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
