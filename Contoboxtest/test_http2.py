@@ -22,24 +22,29 @@ os.environ["chrome.driver"] = driverLocation
 chrome_options = Options()
 # chrome_options.add_argument("headless")
 chrome_options.add_argument(f'--proxy-server={proxy.proxy}')
-driver = webdriver.Chrome(driverLocation,desired_capabilities=chrome_options.to_capabilities())
-# driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
+# driver = webdriver.Chrome(driverLocation,desired_capabilities=chrome_options.to_capabilities())
+driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 
 
 
 
 proxy.new_har()
-driver.get('https://dbb1.contobox.com/v3/preview.php?id=18191')
+# driver.get('https://dbb1.contobox.com/v3/preview.php?id=18361')
 
 # http://dbb1.contobox.com/v3/preview.php?id=18232
 # https://am.contobox.com/v3/preview.php?id=21423
 #12734
 # 18191
 
-driver.switch_to.frame(0)
-banner = driver.find_element(By.ID, "cb-ctr")
-banner.click()
-print("Pre banner clicked")
+# driver.switch_to.frame(0)
+# banner = driver.find_element(By.ID, "cb-ctr")
+# banner.click()
+# print("Pre banner clicked")
+
+# time.sleep(6)
+
+
+driver.get("https://dbb1.contobox.com/v3/preview.php?id=18361&tpl=preview_expanded")
 
 time.sleep(6)
 
