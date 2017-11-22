@@ -7,6 +7,7 @@ import json
 import os
 import pandas as pd
 import re
+import operator
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
@@ -72,18 +73,26 @@ for i in range(0,pre_http_check):
 
 
 m = 0
+n = 0
+
+sample_dic = {}
 for i in range(0, pre_Num_request):
         # print(x[i]['headersSize'])
         m = m + v[i]['headersSize']
-        print("header size {0} = {1}".format(i, m))
-
-n = 0
-for i in range(0, pre_Num_request):
-        # print(x[i]['bodySize'])
         n = n + v[i]['bodySize']
-        print("body size {0} = {1}".format(i, n))
+        var1 = d[i]['url']
+        var2 = v[i]['bodySize']
+        sample_dic[var1] = var2
+        # print("header size {0} = {1}".format(i, m))
+        # print("body size {0} = {1}".format(i, n))
 
+#You want to sort the keys by the values,  maintaining the keys first in a list of tuples, so that the final list will be:
+sample_dic = [(k,v) for v,k in sorted(
+                 [(v,k) for k,v in sample_dic.items()],reverse=True
+                 )
+              ]
 
+print(sample_dic)
 
 
 print("Total Header Size = {}".format(m))
@@ -143,17 +152,13 @@ for i in range(0,http_check):
 
 
 j = 0
+k = 0
 for i in range(0,Num_request):
     # print(x[i]['headersSize'])
     j = j + x[i]['headersSize']
-    print("header size {0} = {1}".format(i, j))
-
-k = 0
-for i in range(0,Num_request):
-    # print(x[i]['bodySize'])
     k = k + x[i]['bodySize']
+    print("header size {0} = {1}".format(i, j))
     print("body size {0} = {1}".format(i, k))
-
 
 print("Total Header Size = {}".format(j))
 print("Total Body Size = {}".format(k))
