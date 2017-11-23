@@ -18,6 +18,22 @@ server = Server('/Users/harisrizwan/SeleniumEnv/browsermob-proxy-2.1.4/bin/brows
 server.start()
 proxy = server.create_proxy()
 
+
+#
+# capabilities = DesiredCapabilities.CHROME
+#
+# capabilities['proxy'] = {
+#     'httpProxy' :'proxy' ,
+#     'ftpProxy' : 'proxy',
+#     'sslProxy' : 'proxy',
+#     'noProxy' : None,
+#     'proxyType' : "autodetect",
+#     'class' : "org.openqa.selenium.Proxy",
+#     'autodetect' : True
+# }
+#
+# proxy.add_to_capabilities(capabilities)
+
 driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
 os.environ["chrome.driver"] = driverLocation
 
@@ -36,12 +52,17 @@ driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 
 
 proxy.new_har()
-driver.get('https://dbb1.contobox.com/v3/preview.php?id=18232')
+driver.get('http://dbb1.contobox.com/v3/preview.php?id=18754')
 
 # http://dbb1.contobox.com/v3/preview.php?id=18232
 # https://am.contobox.com/v3/preview.php?id=21423
 #12734
 # 18191
+#18877 emirates
+#18729 toysrus
+#18754
+
+#18774 shen yu
 
 time.sleep(6)
 
@@ -50,6 +71,8 @@ json_data = json.loads(result)
 
 df = pd.DataFrame([x for x in json_data['log']['entries']])
 
+df.to_clipboard(index=False)
+
 d = df['request']
 v = df['response']
 
@@ -57,7 +80,7 @@ pre_http_check = len(d)
 pre_Num_request = len(v)
 
 
-l=0
+
 
 pre_ListOfHttpURL = []
 pre_ListOfHttpsURL = []
@@ -75,24 +98,15 @@ for i in range(0,pre_http_check):
 m = 0
 n = 0
 
-sample_dic = {}
+
 for i in range(0, pre_Num_request):
         # print(x[i]['headersSize'])
         m = m + v[i]['headersSize']
         n = n + v[i]['bodySize']
-        var1 = d[i]['url']
-        var2 = v[i]['bodySize']
-        sample_dic[var1] = var2
         # print("header size {0} = {1}".format(i, m))
         # print("body size {0} = {1}".format(i, n))
 
-#You want to sort the keys by the values,  maintaining the keys first in a list of tuples, so that the final list will be:
-sample_dic = [(k,v) for v,k in sorted(
-                 [(v,k) for k,v in sample_dic.items()],reverse=True
-                 )
-              ]
 
-print(sample_dic)
 
 
 print("Total Header Size = {}".format(m))
@@ -111,7 +125,7 @@ print("###############***************##############************%%%%%%%%%%%%%%%%%
 
 
 
-driver.get("https://dbb1.contobox.com/v3/preview.php?id=18232&tpl=preview_expanded")
+driver.get("http://dbb1.contobox.com/v3/preview.php?id=18754&tpl=preview_expanded")
 
 time.sleep(6)
 
@@ -136,7 +150,7 @@ http_check = len(y)
 Num_request = len(x)
 
 
-l=0
+
 
 ListOfHttpURL = []
 ListOfHttpsURL = []
@@ -153,12 +167,24 @@ for i in range(0,http_check):
 
 j = 0
 k = 0
+sample_dic = {}
 for i in range(0,Num_request):
     # print(x[i]['headersSize'])
     j = j + x[i]['headersSize']
     k = k + x[i]['bodySize']
-    print("header size {0} = {1}".format(i, j))
-    print("body size {0} = {1}".format(i, k))
+    var1 = y[i]['url']
+    var2 = x[i]['bodySize']
+    sample_dic[var1] = var2
+
+
+#You want to sort the keys by the values,  maintaining the keys first in a list of tuples, so that the final list will be:
+sample_dic = [(k,v) for v,k in sorted(
+                 [(v,k) for k,v in sample_dic.items()],reverse=True
+                 )
+              ]
+
+print(sample_dic)
+
 
 print("Total Header Size = {}".format(j))
 print("Total Body Size = {}".format(k))
