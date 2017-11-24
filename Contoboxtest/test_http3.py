@@ -52,7 +52,7 @@ driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 
 
 proxy.new_har()
-driver.get('http://dbb1.contobox.com/v3/preview.php?id=18754')
+driver.get('https://dbb1.contobox.com/v3/preview.php?id=18774')
 
 # http://dbb1.contobox.com/v3/preview.php?id=18232
 # https://am.contobox.com/v3/preview.php?id=21423
@@ -64,10 +64,12 @@ driver.get('http://dbb1.contobox.com/v3/preview.php?id=18754')
 
 #18774 shen yu
 
-time.sleep(6)
+time.sleep(3)
+
 
 result = json.dumps(proxy.har)
 json_data = json.loads(result)
+
 
 df = pd.DataFrame([x for x in json_data['log']['entries']])
 
@@ -125,7 +127,7 @@ print("###############***************##############************%%%%%%%%%%%%%%%%%
 
 
 
-driver.get("http://dbb1.contobox.com/v3/preview.php?id=18754&tpl=preview_expanded")
+driver.get("https://dbb1.contobox.com/v3/preview.php?id=18774&tpl=preview_expanded")
 
 time.sleep(6)
 
@@ -194,4 +196,4 @@ print("Number of Expandable Https URLs = " +str(len(ListOfHttpsURL)))
 print("Total Transferred Size of Expandable = {}kb (+/- 10kb)".format((j + k)/1000))
 
 server.stop()
-driver.close()
+# driver.close()
