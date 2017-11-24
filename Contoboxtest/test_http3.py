@@ -38,21 +38,18 @@ driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
 os.environ["chrome.driver"] = driverLocation
 
 chrome_options = Options()
-# chrome_options.add_argument("headless")
+chrome_options.add_argument("headless")
 chrome_options.add_argument(f'--proxy-server={proxy.proxy}')
 # driver = webdriver.Chrome(driverLocation,desired_capabilities=chrome_options.to_capabilities())
 driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 
-# profile = webdriver.FirefoxProfile()
-# profile.set_proxy(proxy.selenium_proxy())
-#
-# driver = webdriver.Firefox(firefox_profile=profile)
+
 
 
 
 
 proxy.new_har()
-driver.get('https://dbb1.contobox.com/v3/preview.php?id=18774')
+driver.get('http://dbb1.contobox.com/v3/preview.php?id=17831')
 
 # http://dbb1.contobox.com/v3/preview.php?id=18232
 # https://am.contobox.com/v3/preview.php?id=21423
@@ -65,10 +62,14 @@ driver.get('https://dbb1.contobox.com/v3/preview.php?id=18774')
 #18774 shen yu
 
 time.sleep(3)
+# proxy.wait_for_traffic_to_stop(5000,6000)
+
+
 
 
 result = json.dumps(proxy.har)
 json_data = json.loads(result)
+print(json_data)
 
 
 df = pd.DataFrame([x for x in json_data['log']['entries']])
@@ -127,9 +128,10 @@ print("###############***************##############************%%%%%%%%%%%%%%%%%
 
 
 
-driver.get("https://dbb1.contobox.com/v3/preview.php?id=18774&tpl=preview_expanded")
+driver.get("http://dbb1.contobox.com/v3/preview.php?id=17831&tpl=preview_expanded")
 
 time.sleep(6)
+# proxy.wait_for_traffic_to_stop(1000,6000)
 
 result = json.dumps(proxy.har)
 json_data = json.loads(result)
@@ -195,5 +197,8 @@ print("Number of Expandable Http URLs = " +str(len(ListOfHttpURL)))
 print("Number of Expandable Https URLs = " +str(len(ListOfHttpsURL)))
 print("Total Transferred Size of Expandable = {}kb (+/- 10kb)".format((j + k)/1000))
 
+
+proxy.clear_dns_cache()
+
 server.stop()
-# driver.close()
+driver.close()
