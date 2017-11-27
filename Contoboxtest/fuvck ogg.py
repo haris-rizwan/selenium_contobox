@@ -31,7 +31,20 @@ driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 #
 # driver = webdriver.Firefox(firefox_profile=profile)
 
-
+#
+# capabilities = DesiredCapabilities.CHROME
+#
+# capabilities['proxy'] = {
+#     'httpProxy' :'proxy' ,
+#     'ftpProxy' : 'proxy',
+#     'sslProxy' : 'proxy',
+#     'noProxy' : None,
+#     'proxyType' : "autodetect",
+#     'class' : "org.openqa.selenium.Proxy",
+#     'autodetect' : True
+# }
+#
+# proxy.add_to_capabilities(capabilities)
 
 
 driver.get('http://dbb1.contobox.com/v3/preview.php?id=18877')
