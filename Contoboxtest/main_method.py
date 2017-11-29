@@ -47,6 +47,8 @@ def main():
     pre_ListOfHttpURL = []
     pre_ListOfHttpsURL = []
 
+    banner_dict= {}
+
     for i in range(0, pre_http_check):
         w = re.findall(r"\b" + 'https://' + r"\b", d[i]['url'])
         if "https://" in w:
@@ -61,13 +63,26 @@ def main():
         m = m + v[i]['headersSize']
         n = n + v[i]['bodySize']
 
+    banner_size = (m+n)/1000
+    banner_http = len(pre_ListOfHttpURL)
+    banner_https = len(pre_ListOfHttpsURL)
+    banner_total_request = pre_Num_request
 
-    print("Total Header Size = {}".format(m))
-    print("Total Body Size = {}".format(n))
-    print("The Number of Request of Pre-Expandable are {}".format(pre_Num_request))
-    print("Number of Pre-Expandable Http URLs = " + str(len(pre_ListOfHttpURL)))
-    print("Number of Pre-Expandable Https URLs = " + str(len(pre_ListOfHttpsURL)))
-    print("Total Transferred Size of Pre-Expandable = {}kb (+/- 10kb)".format((m + n) / 1000))
+
+    banner_dict['Pre_Exp weight'] = banner_size
+    banner_dict['Pre_Exp # of Http'] = banner_http
+    banner_dict['Pre_Exp # of Https'] = banner_https
+    banner_dict['Pre_Exp Total Requests'] =banner_total_request
+
+    print(banner_dict)
+
+
+    # print("Total Header Size = {}".format(m))
+    # print("Total Body Size = {}".format(n))
+    # print("The Number of Request of Pre-Expandable are {}".format(banner_total_request))
+    # print("Number of Pre-Expandable Http URLs = " + str(banner_http))
+    # print("Number of Pre-Expandable Https URLs = " + str(banner_https))
+    # print("Total Transferred Size of Pre-Expandable = {}kb (+/- 10kb)".format((banner_size) / 1000))
 
     ################################################################################################
 
@@ -76,16 +91,16 @@ def main():
 
     driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id) + "&tpl=preview_expanded")
 
-    time.sleep(6)
+    time.sleep(8)
 
-    
+
 
     result = json.dumps(proxy.har)
     json_data = json.loads(result)
 
     df = pd.DataFrame([x for x in json_data['log']['entries']])
 
-    df.to_clipboard(index=False)
+    # df.to_clipboard(index=False)
 
     y = df['request']
     x = df['response']
@@ -105,33 +120,47 @@ def main():
 
     j = 0
     k = 0
-    sample_dic = {}
+    url_size_dict = {}
     for i in range(0, Num_request):
         j = j + x[i]['headersSize']
         k = k + x[i]['bodySize']
         var1 = y[i]['url']
         var2 = x[i]['bodySize']
-        sample_dic[var1] = var2
+        url_size_dict[var1] = var2
 
     # You want to sort the keys by the values,  maintaining the keys first in a list of tuples, so that the final list will be:
-    sample_dic = [(k, v) for v, k in sorted(
-        [(v, k) for k, v in sample_dic.items()], reverse=True
+    url_size_dict = [(k, v) for v, k in sorted(
+        [(v, k) for k, v in url_size_dict.items()], reverse=True
     )
                   ]
 
-    print(sample_dic)
+    print(str(len(url_size_dict)))
 
-    print("Total Header Size = {}".format(j))
-    print("Total Body Size = {}".format(k))
-    print("The Number of Request are Expandable {}".format(Num_request))
-    print("Number of Expandable Http URLs = " + str(len(ListOfHttpURL)))
-    print("Number of Expandable Https URLs = " + str(len(ListOfHttpsURL)))
-    print("Total Transferred Size of Expandable = {}kb (+/- 10kb)".format((j + k) / 1000))
+    expandable_dict = {}
+
+    expandable_size = (j + k) / 1000
+    expandable_http = len(ListOfHttpURL)
+    expandable_https = len(ListOfHttpsURL)
+    expandable_total_request = Num_request
+
+    expandable_dict['Expandable weight'] = expandable_size
+    expandable_dict['Expandable # of Http'] = expandable_http
+    expandable_dict['Expandable # of Https'] = expandable_https
+    expandable_dict['Expandable Total Requests'] = expandable_total_request
+
+    print(expandable_dict)
+
+    # print("Total Header Size = {}".format(j))
+    # print("Total Body Size = {}".format(k))
+    # print("The Number of Request are Expandable {}".format(Num_request))
+    # print("Number of Expandable Http URLs = " + str(len(ListOfHttpURL)))
+    # print("Number of Expandable Https URLs = " + str(len(ListOfHttpsURL)))
+    # print("Total Transferred Size of Expandable = {}kb (+/- 10kb)".format((j + k) / 1000))
 
     proxy.clear_dns_cache()
 
     server.stop()
-    driver.close()
+    driver.quit()
 
 if __name__ == '__main__':
     main()

@@ -179,4 +179,4 @@ print("Total Transferred Size of Expandable = {}kb (+/- 10kb)".format((j + k)/10
 proxy.clear_dns_cache()
 
 server.stop()
-driver.close()
+driver.quit()
