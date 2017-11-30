@@ -25,7 +25,7 @@ chrome_options.add_argument(f'--proxy-server={proxy.proxy}')
 driver = webdriver.Chrome(driverLocation,chrome_options=chrome_options)
 proxy.new_har()
 
-Ad_id = 17831
+Ad_id = 18965
 
 driver.get("http://dbb1.contobox.com/v3/preview.php?id="+str(Ad_id))
 
@@ -39,10 +39,7 @@ driver.get("http://dbb1.contobox.com/v3/preview.php?id="+str(Ad_id))
 
 #18774 shen yu
 
-# time.sleep(3)
-proxy.wait_for_traffic_to_stop(2000,6000)
-
-
+time.sleep(3)
 
 
 result = json.dumps(proxy.har)
@@ -67,9 +64,7 @@ pre_ListOfHttpURL = []
 pre_ListOfHttpsURL = []
 
 for i in range(0,pre_http_check):
-    # print(y[i]['url'])
     w = re.findall(r"\b" + 'https://' + r"\b",d[i]['url'])
-    # print(w)
     if "https://" in w:
         pre_ListOfHttpsURL.append(d[i]['url'])
     else:
@@ -81,11 +76,9 @@ n = 0
 
 
 for i in range(0, pre_Num_request):
-        # print(x[i]['headersSize'])
         m = m + v[i]['headersSize']
         n = n + v[i]['bodySize']
-        # print("header size {0} = {1}".format(i, m))
-        # print("body size {0} = {1}".format(i, n))
+
 
 
 
@@ -103,13 +96,12 @@ print("Total Transferred Size of Pre-Expandable = {}kb (+/- 10kb)".format((m + n
 
 print("###############***************##############************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 
-
-
+proxy.clear_dns_cache()
+proxy.new_har()
 
 driver.get("http://dbb1.contobox.com/v3/preview.php?id="+str(Ad_id)+"&tpl=preview_expanded")
 
-# time.sleep(6)
-proxy.wait_for_traffic_to_stop(2000,6000)
+time.sleep(6)
 
 result = json.dumps(proxy.har)
 json_data = json.loads(result)
@@ -138,9 +130,7 @@ ListOfHttpURL = []
 ListOfHttpsURL = []
 
 for i in range(0,http_check):
-    # print(y[i]['url'])
     w = re.findall(r"\b" + 'https://' + r"\b",y[i]['url'])
-    # print(w)
     if "https://" in w:
         ListOfHttpsURL.append(y[i]['url'])
     else:
@@ -151,7 +141,6 @@ j = 0
 k = 0
 sample_dic = {}
 for i in range(0,Num_request):
-    # print(x[i]['headersSize'])
     j = j + x[i]['headersSize']
     k = k + x[i]['bodySize']
     var1 = y[i]['url']

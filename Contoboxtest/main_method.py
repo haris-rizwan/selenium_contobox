@@ -47,7 +47,7 @@ def main():
     pre_ListOfHttpURL = []
     pre_ListOfHttpsURL = []
 
-    banner_dict= {}
+    preview_data= {}
 
     for i in range(0, pre_http_check):
         w = re.findall(r"\b" + 'https://' + r"\b", d[i]['url'])
@@ -68,13 +68,10 @@ def main():
     banner_https = len(pre_ListOfHttpsURL)
     banner_total_request = pre_Num_request
 
-
-    banner_dict['Pre_Exp weight'] = banner_size
-    banner_dict['Pre_Exp # of Http'] = banner_http
-    banner_dict['Pre_Exp # of Https'] = banner_https
-    banner_dict['Pre_Exp Total Requests'] =banner_total_request
-
-    print(banner_dict)
+    preview_data['Pre_Exp weight'] = banner_size
+    preview_data['Pre_Exp # of Http'] = banner_http
+    preview_data['Pre_Exp # of Https'] = banner_https
+    preview_data['Pre_Exp Total Requests'] =banner_total_request
 
 
     # print("Total Header Size = {}".format(m))
@@ -89,9 +86,12 @@ def main():
 
     print("###############***************##############************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 
+    proxy.clear_dns_cache()
+    proxy.new_har()
+
     driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id) + "&tpl=preview_expanded")
 
-    time.sleep(8)
+    time.sleep(6)
 
 
 
@@ -136,19 +136,29 @@ def main():
 
     print(str(len(url_size_dict)))
 
-    expandable_dict = {}
 
     expandable_size = (j + k) / 1000
     expandable_http = len(ListOfHttpURL)
     expandable_https = len(ListOfHttpsURL)
     expandable_total_request = Num_request
+    url_size = url_size_dict
 
-    expandable_dict['Expandable weight'] = expandable_size
-    expandable_dict['Expandable # of Http'] = expandable_http
-    expandable_dict['Expandable # of Https'] = expandable_https
-    expandable_dict['Expandable Total Requests'] = expandable_total_request
+    total_size = banner_size + expandable_size
+    total_http = banner_http + expandable_http
+    total_https = banner_https + expandable_https
+    total_requests = banner_total_request + expandable_total_request
 
-    print(expandable_dict)
+    preview_data['Expandable weight'] = expandable_size
+    preview_data['Expandable # of Http'] = expandable_http
+    preview_data['Expandable # of Https'] = expandable_https
+    preview_data['Expandable Total Requests'] = expandable_total_request
+    preview_data['Total Weight of Contobox'] = total_size
+    preview_data['Total # of HTTP request'] = total_http
+    preview_data['Total # of HTTPS request'] = total_https
+    preview_data['Total # of Request of Contobox'] = total_requests
+    # preview_data['Sorted Url-size list of tuples']= url_size
+
+    print(preview_data)
 
     # print("Total Header Size = {}".format(j))
     # print("Total Body Size = {}".format(k))
@@ -164,6 +174,5 @@ def main():
 
 if __name__ == '__main__':
     main()
-
 
 
