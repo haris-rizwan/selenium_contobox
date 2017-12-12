@@ -1,21 +1,21 @@
+from flask import Flask
+import json
 from browsermobproxy import Server
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 from selenium.webdriver.chrome.options import Options
-import json
 import os
 import pandas as pd
 import re
 import sys
-import flask
 import operator
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
+app = Flask(__name__)
 
-ad_id =sys.argv[1]
-
-def main():
+@app.route('/test', methods=['POST'])
+def contobox_qa(ad_id):
     server = Server('/Users/harisrizwan/SeleniumEnv/browsermob-proxy-2.1.4/bin/browsermob-proxy')
     server.start()
     proxy = server.create_proxy()
@@ -158,11 +158,12 @@ def main():
     preview_data['Total # of HTTPS request'] = total_https
     preview_data['Total # of Request of Contobox'] = total_requests
     # preview_data['Sorted Url-size list of tuples']= url_size
-    print(type(preview_data))
-    print(preview_data)
+    # print(type(preview_data))
+    # print(preview_data)
     final_preview = json.dumps(preview_data)
-    print(type(final_preview))
-    print(final_preview)
+    # print(type(final_preview))
+    # print(final_preview)
+    return final_preview
 
     # print("Total Header Size = {}".format(j))
     # print("Total Body Size = {}".format(k))
@@ -176,7 +177,6 @@ def main():
     server.stop()
     driver.quit()
 
-if __name__ == '__main__':
-    main()
 
-
+if __name__  == "__main__":
+    app.run(debug=True)
