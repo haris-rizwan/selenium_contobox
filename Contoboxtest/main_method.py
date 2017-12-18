@@ -8,10 +8,8 @@ import os
 import pandas as pd
 import re
 import sys
-import flask
 import operator
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
-
 
 ad_id =sys.argv[1]
 

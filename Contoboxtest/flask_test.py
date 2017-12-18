@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, request
 import json
 from browsermobproxy import Server
 from selenium import webdriver
@@ -15,7 +15,10 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 app = Flask(__name__)
 
 @app.route('/test', methods=['POST'])
-def contobox_qa(ad_id):
+def contobox_qa():
+    # ad_id = 19250
+    ad_id = request.form["ad_id"]
+    print(ad_id)
     server = Server('/Users/harisrizwan/SeleniumEnv/browsermob-proxy-2.1.4/bin/browsermob-proxy')
     server.start()
     proxy = server.create_proxy()
@@ -69,20 +72,11 @@ def contobox_qa(ad_id):
     banner_https = len(pre_ListOfHttpsURL)
     banner_total_request = pre_Num_request
 
-    preview_data['Pre_Exp weight'] = banner_size
-    preview_data['Pre_Exp # of Http'] = banner_http
-    preview_data['Pre_Exp # of Https'] = banner_https
-    preview_data['Pre_Exp Total Requests'] =banner_total_request
+    preview_data['Pre_ExpWeight'] = banner_size
+    preview_data['Pre_Exp_#_of_Http'] = banner_http
+    preview_data['Pre_Exp_#_of_Https'] = banner_https
+    preview_data['Pre_Exp_Total_Requests'] =banner_total_request
 
-
-    # print("Total Header Size = {}".format(m))
-    # print("Total Body Size = {}".format(n))
-    # print("The Number of Request of Pre-Expandable are {}".format(banner_total_request))
-    # print("Number of Pre-Expandable Http URLs = " + str(banner_http))
-    # print("Number of Pre-Expandable Https URLs = " + str(banner_https))
-    # print("Total Transferred Size of Pre-Expandable = {}kb (+/- 10kb)".format((banner_size) / 1000))
-
-    ################################################################################################
 
 
     print("###############***************##############************%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
@@ -149,28 +143,21 @@ def contobox_qa(ad_id):
     total_https = banner_https + expandable_https
     total_requests = banner_total_request + expandable_total_request
 
-    preview_data['Expandable weight'] = expandable_size
-    preview_data['Expandable # of Http'] = expandable_http
-    preview_data['Expandable # of Https'] = expandable_https
-    preview_data['Expandable Total Requests'] = expandable_total_request
-    preview_data['Total Weight of Contobox'] = total_size
-    preview_data['Total # of HTTP request'] = total_http
-    preview_data['Total # of HTTPS request'] = total_https
-    preview_data['Total # of Request of Contobox'] = total_requests
+    preview_data['ExpandableWeight'] = expandable_size
+    preview_data['Expandable_#_of_Http'] = expandable_http
+    preview_data['Expandable_#_of_Https'] = expandable_https
+    preview_data['ExpandableTotalRequests'] = expandable_total_request
+    preview_data['TotalWeightOfContobox'] = total_size
+    preview_data['Total_#_of_HTTP_request'] = total_http
+    preview_data['Total_#_of_HTTPS_request'] = total_https
+    preview_data['Total_#_of_Request_of_Contobox'] = total_requests
     # preview_data['Sorted Url-size list of tuples']= url_size
     # print(type(preview_data))
     # print(preview_data)
     final_preview = json.dumps(preview_data)
     # print(type(final_preview))
-    # print(final_preview)
+    print(final_preview)
     return final_preview
-
-    # print("Total Header Size = {}".format(j))
-    # print("Total Body Size = {}".format(k))
-    # print("The Number of Request are Expandable {}".format(Num_request))
-    # print("Number of Expandable Http URLs = " + str(len(ListOfHttpURL)))
-    # print("Number of Expandable Https URLs = " + str(len(ListOfHttpsURL)))
-    # print("Total Transferred Size of Expandable = {}kb (+/- 10kb)".format((j + k) / 1000))
 
     proxy.clear_dns_cache()
 
