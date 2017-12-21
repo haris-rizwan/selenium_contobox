@@ -20,12 +20,13 @@ def main():
     driverLocation = "/Users/harisrizwan/Selenium/chrome/chromedriver"
     os.environ["chrome.driver"] = driverLocation
     chrome_options = Options()
-    chrome_options.add_argument("headless")
+    # chrome_options.add_argument("headless")
     chrome_options.add_argument(f'--proxy-server={proxy.proxy}')
+    chrome_options.add_argument(f'--ignore-certificate-errors')
     driver = webdriver.Chrome(driverLocation, chrome_options=chrome_options)
     proxy.new_har()
 
-    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id))
+    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id)+"&schema=https")
 
     # time.sleep(3)
     proxy.wait_for_traffic_to_stop(2000, 6000)
@@ -88,7 +89,7 @@ def main():
     proxy.clear_dns_cache()
     proxy.new_har()
 
-    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id) + "&tpl=preview_expanded")
+    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id) + "&tpl=preview_expanded&schema=https")
 
     time.sleep(6)
 

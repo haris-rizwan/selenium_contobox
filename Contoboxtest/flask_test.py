@@ -27,13 +27,15 @@ def contobox_qa():
     chrome_options = Options()
     chrome_options.add_argument("headless")
     chrome_options.add_argument(f'--proxy-server={proxy.proxy}')
+    chrome_options.add_argument(f'--ignore-certificate-errors')
     driver = webdriver.Chrome(driverLocation, chrome_options=chrome_options)
     proxy.new_har()
 
-    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id))
+    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id)+"&schema=https")
 
     # time.sleep(3)
     proxy.wait_for_traffic_to_stop(2000, 6000)
+    driver.save_screenshot("1.png")
 
     result = json.dumps(proxy.har)
     json_data = json.loads(result)
@@ -84,9 +86,10 @@ def contobox_qa():
     proxy.clear_dns_cache()
     proxy.new_har()
 
-    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id) + "&tpl=preview_expanded")
+    driver.get("http://dbb1.contobox.com/v3/preview.php?id=" + str(ad_id) + "&tpl=preview_expanded&schema=https")
 
     time.sleep(6)
+    driver.save_screenshot("2.png")
 
 
 
@@ -136,7 +139,7 @@ def contobox_qa():
     expandable_http = len(ListOfHttpURL)
     expandable_https = len(ListOfHttpsURL)
     expandable_total_request = Num_request
-    url_size = url_size_dict
+    url_size = url_size_dict[:5]
 
     total_size = banner_size + expandable_size
     total_http = banner_http + expandable_http
@@ -151,18 +154,16 @@ def contobox_qa():
     preview_data['Total_#_of_HTTP_request'] = total_http
     preview_data['Total_#_of_HTTPS_request'] = total_https
     preview_data['Total_#_of_Request_of_Contobox'] = total_requests
-    # preview_data['Sorted Url-size list of tuples']= url_size
+    preview_data['Sorted Url-size list of tuples']= url_size
     # print(type(preview_data))
     # print(preview_data)
     final_preview = json.dumps(preview_data)
     # print(type(final_preview))
     print(final_preview)
-    return final_preview
-
     proxy.clear_dns_cache()
-
     server.stop()
     driver.quit()
+    return final_preview
 
 
 if __name__  == "__main__":
